@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-09-01T13:13:08.139Z",
+  "configuration": {
+    "detectPlaceholders": false,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "services",
+      "path": "src/services",
+      "purpose": "Enhanced directory analysis of services",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "processor.ts",
+        "path": "src/services/processor.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 245,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "ValidationRule",
+            "type": "interface"
+          },
+          {
+            "name": "ProcessingResult",
+            "type": "interface"
+          },
+          {
+            "name": "ServiceProcessor",
+            "type": "class"
+          },
+          {
+            "name": "Logger",
+            "type": "interface"
+          },
+          {
+            "name": "ConsoleLogger",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ServiceProcessor",
+            "type": "class",
+            "signature": "class ServiceProcessor"
+          },
+          {
+            "name": "ConsoleLogger",
+            "type": "class",
+            "signature": "class ConsoleLogger"
+          },
+          {
+            "name": "ValidationRule",
+            "type": "interface",
+            "signature": "interface ValidationRule"
+          },
+          {
+            "name": "ProcessingResult",
+            "type": "interface",
+            "signature": "interface ProcessingResult"
+          },
+          {
+            "name": "and",
+            "type": "interface",
+            "signature": "interface and"
+          },
+          {
+            "name": "Logger",
+            "type": "interface",
+            "signature": "interface Logger"
+          },
+          {
+            "name": "if",
+            "type": "type",
+            "signature": "type if"
+          }
+        ]
+      },
+      {
+        "name": "auth-service.ts",
+        "path": "src/services/auth-service.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 98,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "AuthService",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AuthService",
+            "type": "class",
+            "signature": "class AuthService"
+          }
+        ]
+      },
+      {
+        "name": "api-client.ts",
+        "path": "src/services/api-client.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 156,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "ApiClientConfig",
+            "type": "interface"
+          },
+          {
+            "name": "ApiClient",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ApiClient",
+            "type": "class",
+            "signature": "class ApiClient"
+          },
+          {
+            "name": "ApiClientConfig",
+            "type": "interface",
+            "signature": "interface ApiClientConfig"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

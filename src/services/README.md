@@ -7,8 +7,105 @@
 Enhanced directory analysis of services
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 3 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 9/1/2025
+
+## 🗂 Directory Structure
+
+```
+services/
+├── 📄 src/services/processor.ts (245 lines)
+├── 📄 src/services/auth-service.ts (98 lines)
+└── 📄 src/services/api-client.ts (156 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/services/processor.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 245
+
+**Code Elements:**
+
+#### 🏗️ Classes (2)
+- **`ServiceProcessor`** - ServiceProcessor class implementation
+- **`ConsoleLogger`** - ConsoleLogger class implementation
+
+#### 📤 Exports (5)
+- `ValidationRule`
+- `ProcessingResult`
+- `ServiceProcessor`
+- `Logger`
+- `ConsoleLogger`
+
+#### 💻 Usage Example
+```ts
+// Import and use the ServiceProcessor
+const { ServiceProcessor } = require('./processor.ts');
+const instance = new ServiceProcessor();
+
+```
+
+---
+
+### 📄 `src/services/auth-service.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 98
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`AuthService`** - AuthService class implementation
+
+#### 📤 Exports (1)
+- `AuthService`
+
+#### 💻 Usage Example
+```ts
+// Import and use the AuthService
+const { AuthService } = require('./auth-service.ts');
+const instance = new AuthService();
+
+```
+
+---
+
+### 📄 `src/services/api-client.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 156
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`ApiClient`** - ApiClient class implementation
+
+#### 📤 Exports (2)
+- `ApiClientConfig`
+- `ApiClient`
+
+#### 💻 Usage Example
+```ts
+// Import and use the ApiClient
+const { ApiClient } = require('./api-client.ts');
+const instance = new ApiClient();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `ServiceProcessor` | `src/services/processor.ts` | ServiceProcessor class implementation |
+| `ConsoleLogger` | `src/services/processor.ts` | ConsoleLogger class implementation |
+| `AuthService` | `src/services/auth-service.ts` | AuthService class implementation |
+| `ApiClient` | `src/services/api-client.ts` | ApiClient class implementation |
 
 ---
 

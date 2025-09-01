@@ -7,8 +7,74 @@
 Enhanced directory analysis of helpers
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 2 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 9/1/2025
+
+## 🗂 Directory Structure
+
+```
+helpers/
+├── 📄 src/helpers/request-helper.ts (80 lines)
+└── 📄 src/helpers/data-handler.ts (73 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/helpers/request-helper.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 80
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`RequestHelper`** - RequestHelper class implementation
+
+#### 📤 Exports (2)
+- `RequestOptions`
+- `RequestHelper`
+
+#### 💻 Usage Example
+```ts
+// Import and use the RequestHelper
+const { RequestHelper } = require('./request-helper.ts');
+const instance = new RequestHelper();
+
+```
+
+---
+
+### 📄 `src/helpers/data-handler.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 73
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`DataHandler`** - DataHandler class implementation
+
+#### 📤 Exports (1)
+- `DataHandler`
+
+#### 💻 Usage Example
+```ts
+// Import and use the DataHandler
+const { DataHandler } = require('./data-handler.ts');
+const instance = new DataHandler();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `RequestHelper` | `src/helpers/request-helper.ts` | RequestHelper class implementation |
+| `DataHandler` | `src/helpers/data-handler.ts` | DataHandler class implementation |
 
 ---
 
