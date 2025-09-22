@@ -7,8 +7,139 @@
 Enhanced directory analysis of legacy
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 4 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 9/1/2025
+
+## 🗂 Directory Structure
+
+```
+legacy/
+├── 📄 src/legacy/old-processor.ts (43 lines)
+├── 📄 src/legacy/old-http.ts (98 lines)
+├── 📄 src/legacy/old-auth.ts (95 lines)
+└── 📄 src/legacy/des-encryption.ts (296 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/legacy/old-processor.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 43
+
+**Code Elements:**
+
+#### ⚙️ Functions (3)
+- **`processData()`** - function processData()
+- **`validateInput()`** - function validateInput()
+- **`transformData()`** - function transformData()
+
+#### 💻 Usage Example
+```ts
+// Import and use functions
+const { processData } = require('./old-processor.ts');
+const result = processData();
+console.log(result);
+```
+
+---
+
+### 📄 `src/legacy/old-http.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 98
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`OldHttpClient`** - OldHttpClient class implementation
+
+#### 📤 Exports (1)
+- `OldHttpClient`
+
+#### 💻 Usage Example
+```ts
+// Import and use the OldHttpClient
+const { OldHttpClient } = require('./old-http.ts');
+const instance = new OldHttpClient();
+
+```
+
+---
+
+### 📄 `src/legacy/old-auth.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 95
+
+**Code Elements:**
+
+#### ⚙️ Functions (7)
+- **`validateUser()`** - function validateUser()
+- **`authenticateUser()`** - function authenticateUser()
+- **`checkAuth()`** - function checkAuth()
+- **`login()`** - function login()
+- **`logout()`** - function logout()
+- **`getCurrentUser()`** - function getCurrentUser()
+- **`isUserLoggedIn()`** - function isUserLoggedIn()
+
+#### 💻 Usage Example
+```ts
+// Import and use functions
+const { validateUser } = require('./old-auth.ts');
+const result = validateUser();
+console.log(result);
+```
+
+---
+
+### 📄 `src/legacy/des-encryption.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 296
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`DESEncryption`** - DESEncryption class implementation
+
+#### 📤 Exports (3)
+- `DESConfig`
+- `DESEncryptionResult`
+- `DESEncryption`
+
+#### 💻 Usage Example
+```ts
+// Import and use the DESEncryption
+const { DESEncryption } = require('./des-encryption.ts');
+const instance = new DESEncryption();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `OldHttpClient` | `src/legacy/old-http.ts` | OldHttpClient class implementation |
+| `DESEncryption` | `src/legacy/des-encryption.ts` | DESEncryption class implementation |
+
+### Functions
+| Function | File | Description |
+|----------|------|-------------|
+| `processData()` | `src/legacy/old-processor.ts` | processData function implementation |
+| `validateInput()` | `src/legacy/old-processor.ts` | validateInput function implementation |
+| `transformData()` | `src/legacy/old-processor.ts` | transformData function implementation |
+| `validateUser()` | `src/legacy/old-auth.ts` | validateUser function implementation |
+| `authenticateUser()` | `src/legacy/old-auth.ts` | authenticateUser function implementation |
+| `checkAuth()` | `src/legacy/old-auth.ts` | checkAuth function implementation |
+| `login()` | `src/legacy/old-auth.ts` | login function implementation |
+| `logout()` | `src/legacy/old-auth.ts` | logout function implementation |
+| `getCurrentUser()` | `src/legacy/old-auth.ts` | getCurrentUser function implementation |
+| `isUserLoggedIn()` | `src/legacy/old-auth.ts` | isUserLoggedIn function implementation |
 
 ---
 

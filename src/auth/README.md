@@ -7,8 +7,50 @@
 Enhanced directory analysis of auth
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 1 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 9/1/2025
+
+## 🗂 Directory Structure
+
+```
+auth/
+└── 📄 src/auth/core-validator.ts (143 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/auth/core-validator.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 143
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`CoreValidator`** - CoreValidator class implementation
+
+#### 📤 Exports (3)
+- `UserValidationResult`
+- `ValidationConfig`
+- `CoreValidator`
+
+#### 💻 Usage Example
+```ts
+// Import and use the CoreValidator
+const { CoreValidator } = require('./core-validator.ts');
+const instance = new CoreValidator();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `CoreValidator` | `src/auth/core-validator.ts` | CoreValidator class implementation |
 
 ---
 

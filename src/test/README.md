@@ -7,8 +7,48 @@
 Enhanced directory analysis of test
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 1 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 9/1/2025
+
+## 🗂 Directory Structure
+
+```
+test/
+└── 📄 src/test/mock-http.ts (170 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/test/mock-http.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 170
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`MockHttp`** - MockHttp class implementation
+
+#### 📤 Exports (1)
+- `MockHttp`
+
+#### 💻 Usage Example
+```ts
+// Import and use the MockHttp
+const { MockHttp } = require('./mock-http.ts');
+const instance = new MockHttp();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `MockHttp` | `src/test/mock-http.ts` | MockHttp class implementation |
 
 ---
 
