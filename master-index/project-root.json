@@ -1,10 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-09-30T09:51:25.406Z",
+  "generatedAt": "2025-10-16T07:00:41.697Z",
   "configuration": {
-    "detectPlaceholders": true,
-    "placeholderConfidence": 45,
+    "detectPlaceholders": false,
+    "placeholderConfidence": 40,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
@@ -12,9 +12,9 @@
   },
   "metadata": {
     "directory": {
-      "name": "placeholder-detection-1759225880540-207070zc6",
+      "name": "repo-82fcae71-474e-4844-a0d9-b1eb1a3b43e8-1760598038752",
       "path": ".",
-      "purpose": "Enhanced directory analysis of placeholder-detection-1759225880540-207070zc6",
+      "purpose": "Enhanced directory analysis of repo-82fcae71-474e-4844-a0d9-b1eb1a3b43e8-1760598038752",
       "ownKeyElements": []
     },
     "files": [],
