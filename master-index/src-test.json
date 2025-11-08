@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-11-08T11:34:28.363Z",
+  "configuration": {
+    "detectPlaceholders": false,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "test",
+      "path": "src/test",
+      "purpose": "Enhanced directory analysis of test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "mock-http.ts",
+        "path": "src/test/mock-http.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 170,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "MockHttp",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "MockHttp",
+            "type": "class",
+            "signature": "class MockHttp"
+          },
+          {
+            "name": "MockRequest",
+            "type": "interface",
+            "signature": "interface MockRequest"
+          },
+          {
+            "name": "MockResponse",
+            "type": "interface",
+            "signature": "interface MockResponse"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-11-08T11:34:28.186Z",
+  "configuration": {
+    "detectPlaceholders": false,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "security",
+      "path": "src/security",
+      "purpose": "Enhanced directory analysis of security",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "rsa-encryption.ts",
+        "path": "src/security/rsa-encryption.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 396,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "RSAConfig",
+            "type": "interface"
+          },
+          {
+            "name": "RSAKeyPair",
+            "type": "interface"
+          },
+          {
+            "name": "RSAEncryptionResult",
+            "type": "interface"
+          },
+          {
+            "name": "RSAEncryption",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "RSAEncryption",
+            "type": "class",
+            "signature": "class RSAEncryption"
+          },
+          {
+            "name": "RSAConfig",
+            "type": "interface",
+            "signature": "interface RSAConfig"
+          },
+          {
+            "name": "RSAKeyPair",
+            "type": "interface",
+            "signature": "interface RSAKeyPair"
+          },
+          {
+            "name": "RSAEncryptionResult",
+            "type": "interface",
+            "signature": "interface RSAEncryptionResult"
+          }
+        ]
+      },
+      {
+        "name": "chacha20-encryption.ts",
+        "path": "src/security/chacha20-encryption.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 330,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "ChaCha20Config",
+            "type": "interface"
+          },
+          {
+            "name": "ChaCha20EncryptionResult",
+            "type": "interface"
+          },
+          {
+            "name": "ChaCha20DecryptionInput",
+            "type": "interface"
+          },
+          {
+            "name": "ChaCha20Encryption",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ChaCha20Encryption",
+            "type": "class",
+            "signature": "class ChaCha20Encryption"
+          },
+          {
+            "name": "ChaCha20Config",
+            "type": "interface",
+            "signature": "interface ChaCha20Config"
+          },
+          {
+            "name": "ChaCha20EncryptionResult",
+            "type": "interface",
+            "signature": "interface ChaCha20EncryptionResult"
+          },
+          {
+            "name": "ChaCha20DecryptionInput",
+            "type": "interface",
+            "signature": "interface ChaCha20DecryptionInput"
+          }
+        ]
+      },
+      {
+        "name": "aes-encryption.ts",
+        "path": "src/security/aes-encryption.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 301,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "AESConfig",
+            "type": "interface"
+          },
+          {
+            "name": "EncryptionResult",
+            "type": "interface"
+          },
+          {
+            "name": "DecryptionInput",
+            "type": "interface"
+          },
+          {
+            "name": "AESEncryption",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AESEncryption",
+            "type": "class",
+            "signature": "class AESEncryption"
+          },
+          {
+            "name": "AESConfig",
+            "type": "interface",
+            "signature": "interface AESConfig"
+          },
+          {
+            "name": "EncryptionResult",
+            "type": "interface",
+            "signature": "interface EncryptionResult"
+          },
+          {
+            "name": "DecryptionInput",
+            "type": "interface",
+            "signature": "interface DecryptionInput"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}
