@@ -1,11 +1,11 @@
-# 🚀 repo-40f3b183-2de3-4cd4-a4eb-466a5fc135c3-1756732384883
+# 🚀 workspace
 
-> Enhanced directory analysis of repo-40f3b183-2de3-4cd4-a4eb-466a5fc135c3-1756732384883
+> Enhanced directory analysis of workspace
 
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](#)
 [![Language](https://img.shields.io/badge/Language-JavaScript-blue)](#)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](#)
-[![Generated](https://img.shields.io/badge/Generated-9/1/2025-orange)](#)
+[![Generated](https://img.shields.io/badge/Generated-11/8/2025-orange)](#)
 
 ## 📋 Table of Contents
 
@@ -20,7 +20,7 @@
 
 ## 📖 Description
 
-Enhanced directory analysis of repo-40f3b183-2de3-4cd4-a4eb-466a5fc135c3-1756732384883
+Enhanced directory analysis of workspace
 
 This project demonstrates modern JavaScript development practices with a well-organized codebase structure. It includes source code.
 
@@ -38,7 +38,7 @@ Get up and running in just a few steps:
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd repo-40f3b183-2de3-4cd4-a4eb-466a5fc135c3-1756732384883
+cd workspace
 
 # Run the main application
 node src/index.js
@@ -75,7 +75,8 @@ main();
 ## 📁 Project Structure
 
 ```
-repo-40f3b183-2de3-4cd4-a4eb-466a5fc135c3-1756732384883/
+workspace/
+├── 📁 master-index/
 └── 📁 src/ # Main source code
 ├── 📄 README.md          # This file
 └── 📄 package.json       # Project configuration
@@ -83,6 +84,7 @@ repo-40f3b183-2de3-4cd4-a4eb-466a5fc135c3-1756732384883/
 
 ### Directory Overview
 
+- **`master-index/`** - Enhanced directory analysis of master-index
 - **`src/`** - Enhanced directory analysis of src
 
 ## ⚙️ Configuration
@@ -100,6 +102,7 @@ No environment variables are required for basic functionality.
 
 For detailed API documentation, see the README files in each directory:
 
+- [`master-index/` API Documentation](./master-index/README.md)
 - [`src/` API Documentation](./src/README.md)
 
 ## 🤝 Contributing
@@ -112,7 +115,7 @@ We welcome contributions! Here's how to get started:
 2. **Clone your fork**:
    ```bash
    git clone <your-fork-url>
-   cd repo-40f3b183-2de3-4cd4-a4eb-466a5fc135c3-1756732384883
+   cd workspace
    ```
 3. **Create a feature branch**:
    ```bash
