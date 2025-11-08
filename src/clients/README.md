@@ -7,8 +7,107 @@
 Enhanced directory analysis of clients
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 3 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 11/8/2025
+
+## 🗂 Directory Structure
+
+```
+clients/
+├── 📄 src/clients/mock-client.ts (278 lines)
+├── 📄 src/clients/fetch-client.ts (236 lines)
+└── 📄 src/clients/axios-client.ts (236 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/clients/mock-client.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 278
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`MockHttpClient`** - MockHttpClient class implementation
+
+#### 📥 Imports (1)
+- `BaseHttpClient`
+
+#### 📤 Exports (1)
+- `MockHttpClient`
+
+#### 💻 Usage Example
+```ts
+// Import and use the MockHttpClient
+const { MockHttpClient } = require('./mock-client.ts');
+const instance = new MockHttpClient();
+
+```
+
+---
+
+### 📄 `src/clients/fetch-client.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 236
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`FetchHttpClient`** - FetchHttpClient class implementation
+
+#### 📥 Imports (1)
+- `BaseHttpClient`
+
+#### 📤 Exports (1)
+- `FetchHttpClient`
+
+#### 💻 Usage Example
+```ts
+// Import and use the FetchHttpClient
+const { FetchHttpClient } = require('./fetch-client.ts');
+const instance = new FetchHttpClient();
+
+```
+
+---
+
+### 📄 `src/clients/axios-client.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 236
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`AxiosHttpClient`** - AxiosHttpClient class implementation
+
+#### 📥 Imports (1)
+- `BaseHttpClient`
+
+#### 📤 Exports (1)
+- `AxiosHttpClient`
+
+#### 💻 Usage Example
+```ts
+// Import and use the AxiosHttpClient
+const { AxiosHttpClient } = require('./axios-client.ts');
+const instance = new AxiosHttpClient();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `MockHttpClient` | `src/clients/mock-client.ts` | MockHttpClient class implementation |
+| `FetchHttpClient` | `src/clients/fetch-client.ts` | FetchHttpClient class implementation |
+| `AxiosHttpClient` | `src/clients/axios-client.ts` | AxiosHttpClient class implementation |
 
 ---
 
