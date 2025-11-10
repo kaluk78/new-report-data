@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-11-10T04:23:37.770Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 45,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "src",
+      "path": "src",
+      "purpose": "Enhanced directory analysis of src",
+      "ownKeyElements": []
+    },
+    "files": [],
+    "subdirectories": [
+      {
+        "name": "auth",
+        "relativePath": "auth",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of auth",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "clients",
+        "relativePath": "clients",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of clients",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "components",
+        "relativePath": "components",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of components",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "core",
+        "relativePath": "core",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of core",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "helpers",
+        "relativePath": "helpers",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of helpers",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "legacy",
+        "relativePath": "legacy",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of legacy",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "modules",
+        "relativePath": "modules",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of modules",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "security",
+        "relativePath": "security",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of security",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "services",
+        "relativePath": "services",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of services",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "test",
+        "relativePath": "test",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of test",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "utils",
+        "relativePath": "utils",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of utils",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}
