@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-07-25T10:18:18.626Z",
+  "generatedAt": "2025-11-10T04:23:02.863Z",
   "configuration": {
     "detectPlaceholders": false,
     "placeholderConfidence": 40,
@@ -13,11 +13,35 @@
   "metadata": {
     "directory": {
       "name": "components",
-      "path": "src\\components",
+      "path": "src/components",
       "purpose": "Enhanced directory analysis of components",
       "ownKeyElements": []
     },
-    "files": [],
+    "files": [
+      {
+        "name": "data-proc.ts",
+        "path": "src/components/data-proc.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 84,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "DataProcComponent",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DataProcComponent",
+            "type": "class",
+            "signature": "class DataProcComponent"
+          }
+        ]
+      }
+    ],
     "subdirectories": []
   }
 }

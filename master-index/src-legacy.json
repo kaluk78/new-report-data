@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-07-25T10:18:18.671Z",
+  "generatedAt": "2025-11-10T04:23:03.081Z",
   "configuration": {
     "detectPlaceholders": false,
     "placeholderConfidence": 40,
@@ -13,11 +13,157 @@
   "metadata": {
     "directory": {
       "name": "legacy",
-      "path": "src\\legacy",
+      "path": "src/legacy",
       "purpose": "Enhanced directory analysis of legacy",
       "ownKeyElements": []
     },
-    "files": [],
+    "files": [
+      {
+        "name": "old-processor.ts",
+        "path": "src/legacy/old-processor.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 43,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "processData",
+            "type": "function",
+            "signature": "function processData()"
+          },
+          {
+            "name": "validateInput",
+            "type": "function",
+            "signature": "function validateInput()"
+          },
+          {
+            "name": "transformData",
+            "type": "function",
+            "signature": "function transformData()"
+          }
+        ]
+      },
+      {
+        "name": "old-http.ts",
+        "path": "src/legacy/old-http.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 98,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "OldHttpClient",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "OldHttpClient",
+            "type": "class",
+            "signature": "class OldHttpClient"
+          }
+        ]
+      },
+      {
+        "name": "old-auth.ts",
+        "path": "src/legacy/old-auth.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 95,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "validateUser",
+            "type": "function",
+            "signature": "function validateUser()"
+          },
+          {
+            "name": "authenticateUser",
+            "type": "function",
+            "signature": "function authenticateUser()"
+          },
+          {
+            "name": "checkAuth",
+            "type": "function",
+            "signature": "function checkAuth()"
+          },
+          {
+            "name": "login",
+            "type": "function",
+            "signature": "function login()"
+          },
+          {
+            "name": "logout",
+            "type": "function",
+            "signature": "function logout()"
+          },
+          {
+            "name": "getCurrentUser",
+            "type": "function",
+            "signature": "function getCurrentUser()"
+          },
+          {
+            "name": "isUserLoggedIn",
+            "type": "function",
+            "signature": "function isUserLoggedIn()"
+          },
+          {
+            "name": "checking",
+            "type": "type",
+            "signature": "type checking"
+          }
+        ]
+      },
+      {
+        "name": "des-encryption.ts",
+        "path": "src/legacy/des-encryption.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 296,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "DESConfig",
+            "type": "interface"
+          },
+          {
+            "name": "DESEncryptionResult",
+            "type": "interface"
+          },
+          {
+            "name": "DESEncryption",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DESEncryption",
+            "type": "class",
+            "signature": "class DESEncryption"
+          },
+          {
+            "name": "DESConfig",
+            "type": "interface",
+            "signature": "interface DESConfig"
+          },
+          {
+            "name": "DESEncryptionResult",
+            "type": "interface",
+            "signature": "interface DESEncryptionResult"
+          }
+        ]
+      }
+    ],
     "subdirectories": []
   }
 }

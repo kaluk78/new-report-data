@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-07-25T10:18:18.736Z",
+  "generatedAt": "2025-11-10T04:23:03.461Z",
   "configuration": {
     "detectPlaceholders": false,
     "placeholderConfidence": 40,
@@ -13,11 +13,231 @@
   "metadata": {
     "directory": {
       "name": "utils",
-      "path": "src\\utils",
+      "path": "src/utils",
       "purpose": "Enhanced directory analysis of utils",
       "ownKeyElements": []
     },
-    "files": [],
+    "files": [
+      {
+        "name": "prod-logger.ts",
+        "path": "src/utils/prod-logger.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 342,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "ProdLogConfig",
+            "type": "interface"
+          },
+          {
+            "name": "LogEntry",
+            "type": "interface"
+          },
+          {
+            "name": "MetricData",
+            "type": "interface"
+          },
+          {
+            "name": "ProdLogger",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ProdLogger",
+            "type": "class",
+            "signature": "class ProdLogger"
+          },
+          {
+            "name": "ProdLogConfig",
+            "type": "interface",
+            "signature": "interface ProdLogConfig"
+          },
+          {
+            "name": "LogEntry",
+            "type": "interface",
+            "signature": "interface LogEntry"
+          },
+          {
+            "name": "MetricData",
+            "type": "interface",
+            "signature": "interface MetricData"
+          }
+        ]
+      },
+      {
+        "name": "http-util.ts",
+        "path": "src/utils/http-util.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 159,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "HttpUtil",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "HttpUtil",
+            "type": "class",
+            "signature": "class HttpUtil"
+          }
+        ]
+      },
+      {
+        "name": "debug-logger.ts",
+        "path": "src/utils/debug-logger.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 233,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "DebugConfig",
+            "type": "interface"
+          },
+          {
+            "name": "DebugContext",
+            "type": "interface"
+          },
+          {
+            "name": "DebugLogger",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DebugLogger",
+            "type": "class",
+            "signature": "class DebugLogger"
+          },
+          {
+            "name": "DebugConfig",
+            "type": "interface",
+            "signature": "interface DebugConfig"
+          },
+          {
+            "name": "DebugContext",
+            "type": "interface",
+            "signature": "interface DebugContext"
+          }
+        ]
+      },
+      {
+        "name": "data-processor.ts",
+        "path": "src/utils/data-processor.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 170,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "ProcessingOptions",
+            "type": "interface"
+          },
+          {
+            "name": "DataProcessor",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DataProcessor",
+            "type": "class",
+            "signature": "class DataProcessor"
+          },
+          {
+            "name": "ProcessingOptions",
+            "type": "interface",
+            "signature": "interface ProcessingOptions"
+          }
+        ]
+      },
+      {
+        "name": "audit-logger.ts",
+        "path": "src/utils/audit-logger.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 476,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "AuditConfig",
+            "type": "interface"
+          },
+          {
+            "name": "AuditEvent",
+            "type": "interface"
+          },
+          {
+            "name": "AuditActor",
+            "type": "interface"
+          },
+          {
+            "name": "AuditResource",
+            "type": "interface"
+          },
+          {
+            "name": "ComplianceContext",
+            "type": "interface"
+          },
+          {
+            "name": "AuditLogger",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "AuditLogger",
+            "type": "class",
+            "signature": "class AuditLogger"
+          },
+          {
+            "name": "AuditConfig",
+            "type": "interface",
+            "signature": "interface AuditConfig"
+          },
+          {
+            "name": "AuditEvent",
+            "type": "interface",
+            "signature": "interface AuditEvent"
+          },
+          {
+            "name": "AuditActor",
+            "type": "interface",
+            "signature": "interface AuditActor"
+          },
+          {
+            "name": "AuditResource",
+            "type": "interface",
+            "signature": "interface AuditResource"
+          },
+          {
+            "name": "ComplianceContext",
+            "type": "interface",
+            "signature": "interface ComplianceContext"
+          },
+          {
+            "name": "for",
+            "type": "type",
+            "signature": "type for"
+          }
+        ]
+      }
+    ],
     "subdirectories": []
   }
 }
