@@ -7,8 +7,48 @@
 Enhanced directory analysis of components
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 1 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 11/10/2025
+
+## 🗂 Directory Structure
+
+```
+components/
+└── 📄 src/components/data-proc.ts (84 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/components/data-proc.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 84
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`DataProcComponent`** - DataProcComponent class implementation
+
+#### 📤 Exports (1)
+- `DataProcComponent`
+
+#### 💻 Usage Example
+```ts
+// Import and use the DataProcComponent
+const { DataProcComponent } = require('./data-proc.ts');
+const instance = new DataProcComponent();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `DataProcComponent` | `src/components/data-proc.ts` | DataProcComponent class implementation |
 
 ---
 
