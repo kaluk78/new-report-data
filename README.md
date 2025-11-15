@@ -5,7 +5,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](#)
 [![Language](https://img.shields.io/badge/Language-JavaScript-blue)](#)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](#)
-[![Generated](https://img.shields.io/badge/Generated-11/8/2025-orange)](#)
+[![Generated](https://img.shields.io/badge/Generated-11/15/2025-orange)](#)
 
 ## 📋 Table of Contents
 
@@ -76,6 +76,7 @@ main();
 
 ```
 workspace/
+├── 📁 master-index/
 └── 📁 src/ # Main source code
 ├── 📄 README.md          # This file
 └── 📄 package.json       # Project configuration
@@ -83,6 +84,7 @@ workspace/
 
 ### Directory Overview
 
+- **`master-index/`** - Enhanced directory analysis of master-index
 - **`src/`** - Enhanced directory analysis of src
 
 ## ⚙️ Configuration
@@ -100,6 +102,7 @@ No environment variables are required for basic functionality.
 
 For detailed API documentation, see the README files in each directory:
 
+- [`master-index/` API Documentation](./master-index/README.md)
 - [`src/` API Documentation](./src/README.md)
 
 ## 🤝 Contributing
