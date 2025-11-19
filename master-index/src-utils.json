@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-11-12T13:13:52.511Z",
+  "generatedAt": "2025-11-19T11:10:33.620Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
@@ -26,7 +26,7 @@
         "lineCount": 342,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "addToBuffer",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -51,7 +51,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -75,7 +75,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "destroy",
             "classification": "definite-legitimate",
             "confidence": 4,
@@ -100,7 +100,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "error",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -125,7 +125,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "flushLogs",
             "classification": "uncertain",
             "confidence": 41,
@@ -152,7 +152,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "flushMetrics",
             "classification": "uncertain",
             "confidence": 41,
@@ -179,7 +179,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "getErrorSummary",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -206,7 +206,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "incrementCounter",
             "classification": "definite-legitimate",
             "confidence": 18,
@@ -232,7 +232,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "info",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -257,7 +257,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "logBusinessEvent",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -281,7 +281,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "logHealthCheck",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -305,7 +305,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "logRequest",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -329,7 +329,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "recordGauge",
             "classification": "definite-legitimate",
             "confidence": 18,
@@ -355,7 +355,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "recordMetric",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -381,7 +381,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "recordTiming",
             "classification": "definite-legitimate",
             "confidence": 18,
@@ -407,7 +407,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "reportError",
             "classification": "uncertain",
             "confidence": 52,
@@ -432,7 +432,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "sendToLogService",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -457,7 +457,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "sendToMetricsService",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -482,7 +482,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "shouldLog",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -508,7 +508,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "startAggregation",
             "classification": "definite-legitimate",
             "confidence": 1,
@@ -535,7 +535,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/prod-logger.ts",
+            "filePath": "/workspace/src/utils/prod-logger.ts",
             "functionName": "warn",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -612,7 +612,7 @@
         "lineCount": 159,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/http-util.ts",
+            "filePath": "/workspace/src/utils/http-util.ts",
             "functionName": "delete",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -638,7 +638,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/http-util.ts",
+            "filePath": "/workspace/src/utils/http-util.ts",
             "functionName": "downloadFile",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -665,7 +665,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/http-util.ts",
+            "filePath": "/workspace/src/utils/http-util.ts",
             "functionName": "get",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -691,7 +691,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/http-util.ts",
+            "filePath": "/workspace/src/utils/http-util.ts",
             "functionName": "isReachable",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -717,7 +717,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/http-util.ts",
+            "filePath": "/workspace/src/utils/http-util.ts",
             "functionName": "post",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -743,7 +743,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/http-util.ts",
+            "filePath": "/workspace/src/utils/http-util.ts",
             "functionName": "put",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -769,7 +769,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/http-util.ts",
+            "filePath": "/workspace/src/utils/http-util.ts",
             "functionName": "uploadFile",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -820,7 +820,7 @@
         "lineCount": 233,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "assert",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -845,7 +845,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -869,7 +869,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "debug",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -894,7 +894,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "endProfiling",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -919,7 +919,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "formatBytes",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -944,7 +944,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "formatValue",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -969,7 +969,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "functionEntry",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -994,7 +994,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "functionExit",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -1019,7 +1019,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "getStackTrace",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1045,7 +1045,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "getValueSize",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1071,7 +1071,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "inspectVariables",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -1096,7 +1096,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "logMemoryUsage",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1120,7 +1120,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/debug-logger.ts",
+            "filePath": "/workspace/src/utils/debug-logger.ts",
             "functionName": "startProfiling",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -1188,7 +1188,7 @@
         "lineCount": 170,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/data-processor.ts",
+            "filePath": "/workspace/src/utils/data-processor.ts",
             "functionName": "checkMemoryUsage",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1214,7 +1214,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/data-processor.ts",
+            "filePath": "/workspace/src/utils/data-processor.ts",
             "functionName": "clearInternalCaches",
             "classification": "likely-legitimate",
             "confidence": 22,
@@ -1241,7 +1241,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/data-processor.ts",
+            "filePath": "/workspace/src/utils/data-processor.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1265,7 +1265,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/data-processor.ts",
+            "filePath": "/workspace/src/utils/data-processor.ts",
             "functionName": "getStats",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1292,7 +1292,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/data-processor.ts",
+            "filePath": "/workspace/src/utils/data-processor.ts",
             "functionName": "performMemoryCleanup",
             "classification": "definite-legitimate",
             "confidence": 4,
@@ -1317,7 +1317,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/data-processor.ts",
+            "filePath": "/workspace/src/utils/data-processor.ts",
             "functionName": "processBatch",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1343,7 +1343,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/data-processor.ts",
+            "filePath": "/workspace/src/utils/data-processor.ts",
             "functionName": "processWithOptimization",
             "classification": "definite-legitimate",
             "confidence": 14,
@@ -1369,7 +1369,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/data-processor.ts",
+            "filePath": "/workspace/src/utils/data-processor.ts",
             "functionName": "reset",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1397,7 +1397,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/data-processor.ts",
+            "filePath": "/workspace/src/utils/data-processor.ts",
             "functionName": "updatePerformanceMetrics",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1455,7 +1455,7 @@
         "lineCount": 476,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "calculateDataAccessSeverity",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1479,7 +1479,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1503,7 +1503,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "encryptEvent",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1528,7 +1528,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "generateComplianceReport",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1554,7 +1554,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "generateDigitalSignature",
             "classification": "uncertain",
             "confidence": 40,
@@ -1580,7 +1580,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "generateEventId",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1608,7 +1608,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "getAuditTrail",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1633,7 +1633,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "groupEventsByType",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1659,7 +1659,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "logAuthentication",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1683,7 +1683,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "logComplianceEvent",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1707,7 +1707,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "logDataAccess",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -1732,7 +1732,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "logDataModification",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1756,7 +1756,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "logPrivilegeEscalation",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -1781,7 +1781,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "logSecurityViolation",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -1806,7 +1806,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "persistAuditEvent",
             "classification": "uncertain",
             "confidence": 57,
@@ -1831,7 +1831,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "recordAuditEvent",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1856,7 +1856,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "sanitizeValue",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1881,7 +1881,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/utils/audit-logger.ts",
+            "filePath": "/workspace/src/utils/audit-logger.ts",
             "functionName": "sendSecurityAlert",
             "classification": "uncertain",
             "confidence": 57,

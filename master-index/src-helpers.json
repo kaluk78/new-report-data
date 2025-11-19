@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-11-12T13:13:51.106Z",
+  "generatedAt": "2025-11-19T11:10:27.016Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
@@ -26,7 +26,7 @@
         "lineCount": 80,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/request-helper.ts",
+            "filePath": "/workspace/src/helpers/request-helper.ts",
             "functionName": "buildUrl",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -51,7 +51,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/request-helper.ts",
+            "filePath": "/workspace/src/helpers/request-helper.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -75,7 +75,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/request-helper.ts",
+            "filePath": "/workspace/src/helpers/request-helper.ts",
             "functionName": "get",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -102,7 +102,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/request-helper.ts",
+            "filePath": "/workspace/src/helpers/request-helper.ts",
             "functionName": "makeRequest",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -128,7 +128,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/request-helper.ts",
+            "filePath": "/workspace/src/helpers/request-helper.ts",
             "functionName": "post",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -155,7 +155,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/request-helper.ts",
+            "filePath": "/workspace/src/helpers/request-helper.ts",
             "functionName": "setAuthToken",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -216,7 +216,7 @@
         "lineCount": 73,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/data-handler.ts",
+            "filePath": "/workspace/src/helpers/data-handler.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -240,7 +240,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/data-handler.ts",
+            "filePath": "/workspace/src/helpers/data-handler.ts",
             "functionName": "handleData",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -266,7 +266,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/data-handler.ts",
+            "filePath": "/workspace/src/helpers/data-handler.ts",
             "functionName": "processItem",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -291,7 +291,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/data-handler.ts",
+            "filePath": "/workspace/src/helpers/data-handler.ts",
             "functionName": "transformFormat",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -316,7 +316,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/helpers/data-handler.ts",
+            "filePath": "/workspace/src/helpers/data-handler.ts",
             "functionName": "validateStructure",
             "classification": "definite-legitimate",
             "confidence": 0,

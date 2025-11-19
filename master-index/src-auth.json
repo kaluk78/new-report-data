@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-11-12T13:13:50.372Z",
+  "generatedAt": "2025-11-19T11:10:24.646Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
@@ -26,7 +26,7 @@
         "lineCount": 143,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/auth/core-validator.ts",
+            "filePath": "/workspace/src/auth/core-validator.ts",
             "functionName": "checkEmailVerification",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -52,7 +52,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/auth/core-validator.ts",
+            "filePath": "/workspace/src/auth/core-validator.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -76,7 +76,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/auth/core-validator.ts",
+            "filePath": "/workspace/src/auth/core-validator.ts",
             "functionName": "getUserId",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -102,7 +102,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/auth/core-validator.ts",
+            "filePath": "/workspace/src/auth/core-validator.ts",
             "functionName": "isValidEmail",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -129,7 +129,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/auth/core-validator.ts",
+            "filePath": "/workspace/src/auth/core-validator.ts",
             "functionName": "isValidPassword",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -156,7 +156,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/auth/core-validator.ts",
+            "filePath": "/workspace/src/auth/core-validator.ts",
             "functionName": "isWeakPassword",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -182,7 +182,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/auth/core-validator.ts",
+            "filePath": "/workspace/src/auth/core-validator.ts",
             "functionName": "updateConfig",
             "classification": "definite-legitimate",
             "confidence": 3,
@@ -209,7 +209,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/auth/core-validator.ts",
+            "filePath": "/workspace/src/auth/core-validator.ts",
             "functionName": "validateTwoFactor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -235,7 +235,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/auth/core-validator.ts",
+            "filePath": "/workspace/src/auth/core-validator.ts",
             "functionName": "validateUser",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -260,7 +260,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/auth/core-validator.ts",
+            "filePath": "/workspace/src/auth/core-validator.ts",
             "functionName": "validateUsers",
             "classification": "definite-legitimate",
             "confidence": 0,

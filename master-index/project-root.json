@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-11-12T13:13:52.632Z",
+  "generatedAt": "2025-11-19T11:10:34.286Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
@@ -12,9 +12,9 @@
   },
   "metadata": {
     "directory": {
-      "name": "placeholder-detection-1762953227399-nk9mu3k8w",
+      "name": "workspace",
       "path": ".",
-      "purpose": "Enhanced directory analysis of placeholder-detection-1762953227399-nk9mu3k8w",
+      "purpose": "Enhanced directory analysis of workspace",
       "ownKeyElements": []
     },
     "files": [],

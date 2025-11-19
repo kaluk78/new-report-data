@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-11-12T13:13:50.706Z",
+  "generatedAt": "2025-11-19T11:10:25.720Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
@@ -26,7 +26,7 @@
         "lineCount": 84,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/components/data-proc.ts",
+            "filePath": "/workspace/src/components/data-proc.ts",
             "functionName": "addToQueue",
             "classification": "definite-legitimate",
             "confidence": 3,
@@ -53,7 +53,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/components/data-proc.ts",
+            "filePath": "/workspace/src/components/data-proc.ts",
             "functionName": "clearQueue",
             "classification": "definite-legitimate",
             "confidence": 7,
@@ -81,7 +81,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/components/data-proc.ts",
+            "filePath": "/workspace/src/components/data-proc.ts",
             "functionName": "getStatus",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -108,7 +108,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/components/data-proc.ts",
+            "filePath": "/workspace/src/components/data-proc.ts",
             "functionName": "processItem",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -133,7 +133,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762953227399-nk9mu3k8w/src/components/data-proc.ts",
+            "filePath": "/workspace/src/components/data-proc.ts",
             "functionName": "processQueue",
             "classification": "definite-legitimate",
             "confidence": 3,
