@@ -1,10 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-11-10T04:21:39.349Z",
+  "generatedAt": "2025-11-21T11:23:05.090Z",
   "configuration": {
-    "detectPlaceholders": false,
-    "placeholderConfidence": 40,
+    "detectPlaceholders": true,
+    "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
@@ -12,13 +12,19 @@
   },
   "metadata": {
     "directory": {
-      "name": "repo-ddd3aca3-256d-4515-a687-f4b84eca494a-1762748495124",
+      "name": "workspace",
       "path": ".",
-      "purpose": "Enhanced directory analysis of repo-ddd3aca3-256d-4515-a687-f4b84eca494a-1762748495124",
+      "purpose": "Enhanced directory analysis of workspace",
       "ownKeyElements": []
     },
     "files": [],
     "subdirectories": [
+      {
+        "name": "master-index",
+        "relativePath": "master-index",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of master-index",
+        "keyElementsFromChild": []
+      },
       {
         "name": "src",
         "relativePath": "src",
