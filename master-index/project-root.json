@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-11-21T09:09:48.490Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 45,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "workspace",
+      "path": ".",
+      "purpose": "Enhanced directory analysis of workspace",
+      "ownKeyElements": []
+    },
+    "files": [],
+    "subdirectories": [
+      {
+        "name": "src",
+        "relativePath": "src",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of src",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}
