@@ -7,8 +7,107 @@
 Enhanced directory analysis of security
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 3 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 12/11/2025
+
+## 🗂 Directory Structure
+
+```
+security/
+├── 📄 src/security/rsa-encryption.ts (396 lines)
+├── 📄 src/security/chacha20-encryption.ts (330 lines)
+└── 📄 src/security/aes-encryption.ts (301 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/security/rsa-encryption.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 396
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`RSAEncryption`** - RSAEncryption class implementation
+
+#### 📤 Exports (4)
+- `RSAConfig`
+- `RSAKeyPair`
+- `RSAEncryptionResult`
+- `RSAEncryption`
+
+#### 💻 Usage Example
+```ts
+// Import and use the RSAEncryption
+const { RSAEncryption } = require('./rsa-encryption.ts');
+const instance = new RSAEncryption();
+
+```
+
+---
+
+### 📄 `src/security/chacha20-encryption.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 330
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`ChaCha20Encryption`** - ChaCha20Encryption class implementation
+
+#### 📤 Exports (4)
+- `ChaCha20Config`
+- `ChaCha20EncryptionResult`
+- `ChaCha20DecryptionInput`
+- `ChaCha20Encryption`
+
+#### 💻 Usage Example
+```ts
+// Import and use the ChaCha20Encryption
+const { ChaCha20Encryption } = require('./chacha20-encryption.ts');
+const instance = new ChaCha20Encryption();
+
+```
+
+---
+
+### 📄 `src/security/aes-encryption.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 301
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`AESEncryption`** - AESEncryption class implementation
+
+#### 📤 Exports (4)
+- `AESConfig`
+- `EncryptionResult`
+- `DecryptionInput`
+- `AESEncryption`
+
+#### 💻 Usage Example
+```ts
+// Import and use the AESEncryption
+const { AESEncryption } = require('./aes-encryption.ts');
+const instance = new AESEncryption();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `RSAEncryption` | `src/security/rsa-encryption.ts` | RSAEncryption class implementation |
+| `ChaCha20Encryption` | `src/security/chacha20-encryption.ts` | ChaCha20Encryption class implementation |
+| `AESEncryption` | `src/security/aes-encryption.ts` | AESEncryption class implementation |
 
 ---
 

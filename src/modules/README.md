@@ -7,8 +7,75 @@
 Enhanced directory analysis of modules
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 2 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 12/11/2025
+
+## 🗂 Directory Structure
+
+```
+modules/
+├── 📄 src/modules/process-util.ts (88 lines)
+└── 📄 src/modules/api-util.ts (109 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/modules/process-util.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 88
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`ProcessUtil`** - ProcessUtil class implementation
+
+#### 📤 Exports (2)
+- `ProcessConfig`
+- `ProcessUtil`
+
+#### 💻 Usage Example
+```ts
+// Import and use the ProcessUtil
+const { ProcessUtil } = require('./process-util.ts');
+const instance = new ProcessUtil();
+
+```
+
+---
+
+### 📄 `src/modules/api-util.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 109
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`ApiUtil`** - ApiUtil class implementation
+
+#### 📤 Exports (2)
+- `ApiResponse`
+- `ApiUtil`
+
+#### 💻 Usage Example
+```ts
+// Import and use the ApiUtil
+const { ApiUtil } = require('./api-util.ts');
+const instance = new ApiUtil();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `ProcessUtil` | `src/modules/process-util.ts` | ProcessUtil class implementation |
+| `ApiUtil` | `src/modules/api-util.ts` | ApiUtil class implementation |
 
 ---
 

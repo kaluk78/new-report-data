@@ -7,8 +7,90 @@
 Enhanced directory analysis of core
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 2 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 12/11/2025
+
+## 🗂 Directory Structure
+
+```
+core/
+├── 📄 src/core/http-client.ts (217 lines)
+└── 📄 src/core/data-processor.ts (478 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/core/http-client.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 217
+
+**Code Elements:**
+
+#### 🏗️ Classes (2)
+- **`HttpClientFactory`** - HttpClientFactory class implementation
+- **`BaseHttpClient`** - BaseHttpClient class implementation
+
+#### 📤 Exports (9)
+- `HttpClientConfig`
+- `AuthConfig`
+- `RequestConfig`
+- `HttpResponse`
+- `RequestInterceptor`
+- `ResponseInterceptor`
+- `HttpClient`
+- `HttpClientFactory`
+- `BaseHttpClient`
+
+#### 💻 Usage Example
+```ts
+// Import and use the HttpClientFactory
+const { HttpClientFactory } = require('./http-client.ts');
+const instance = new HttpClientFactory();
+
+```
+
+---
+
+### 📄 `src/core/data-processor.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 478
+
+**Code Elements:**
+
+#### 🏗️ Classes (2)
+- **`UnifiedDataProcessor`** - UnifiedDataProcessor class implementation
+- **`ConsoleLogger`** - ConsoleLogger class implementation
+
+#### 📤 Exports (6)
+- `ProcessingOptions`
+- `ValidationRule`
+- `ProcessingResult`
+- `Logger`
+- `UnifiedDataProcessor`
+- `ConsoleLogger`
+
+#### 💻 Usage Example
+```ts
+// Import and use the UnifiedDataProcessor
+const { UnifiedDataProcessor } = require('./data-processor.ts');
+const instance = new UnifiedDataProcessor();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `HttpClientFactory` | `src/core/http-client.ts` | HttpClientFactory class implementation |
+| `BaseHttpClient` | `src/core/http-client.ts` | BaseHttpClient class implementation |
+| `UnifiedDataProcessor` | `src/core/data-processor.ts` | UnifiedDataProcessor class implementation |
+| `ConsoleLogger` | `src/core/data-processor.ts` | ConsoleLogger class implementation |
 
 ---
 

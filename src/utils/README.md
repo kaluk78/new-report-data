@@ -7,8 +7,159 @@
 Enhanced directory analysis of utils
 
 **📊 Directory Statistics:**
-- **Files:** 0 JavaScript files
-- **Last Updated:** 7/15/2025
+- **Files:** 5 TypeScript 5.4 files
+- **Languages:** TypeScript 5.4
+- **Last Updated:** 12/11/2025
+
+## 🗂 Directory Structure
+
+```
+utils/
+├── 📄 src/utils/prod-logger.ts (342 lines)
+├── 📄 src/utils/http-util.ts (159 lines)
+├── 📄 src/utils/debug-logger.ts (233 lines)
+├── 📄 src/utils/data-processor.ts (170 lines)
+└── 📄 src/utils/audit-logger.ts (476 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `src/utils/prod-logger.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 342
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`ProdLogger`** - ProdLogger class implementation
+
+#### 📤 Exports (4)
+- `ProdLogConfig`
+- `LogEntry`
+- `MetricData`
+- `ProdLogger`
+
+#### 💻 Usage Example
+```ts
+// Import and use the ProdLogger
+const { ProdLogger } = require('./prod-logger.ts');
+const instance = new ProdLogger();
+
+```
+
+---
+
+### 📄 `src/utils/http-util.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 159
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`HttpUtil`** - HttpUtil class implementation
+
+#### 📤 Exports (1)
+- `HttpUtil`
+
+#### 💻 Usage Example
+```ts
+// Import and use the HttpUtil
+const { HttpUtil } = require('./http-util.ts');
+const instance = new HttpUtil();
+
+```
+
+---
+
+### 📄 `src/utils/debug-logger.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 233
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`DebugLogger`** - DebugLogger class implementation
+
+#### 📤 Exports (3)
+- `DebugConfig`
+- `DebugContext`
+- `DebugLogger`
+
+#### 💻 Usage Example
+```ts
+// Import and use the DebugLogger
+const { DebugLogger } = require('./debug-logger.ts');
+const instance = new DebugLogger();
+
+```
+
+---
+
+### 📄 `src/utils/data-processor.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 170
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`DataProcessor`** - DataProcessor class implementation
+
+#### 📤 Exports (2)
+- `ProcessingOptions`
+- `DataProcessor`
+
+#### 💻 Usage Example
+```ts
+// Import and use the DataProcessor
+const { DataProcessor } = require('./data-processor.ts');
+const instance = new DataProcessor();
+
+```
+
+---
+
+### 📄 `src/utils/audit-logger.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 476
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`AuditLogger`** - AuditLogger class implementation
+
+#### 📤 Exports (6)
+- `AuditConfig`
+- `AuditEvent`
+- `AuditActor`
+- `AuditResource`
+- `ComplianceContext`
+- `AuditLogger`
+
+#### 💻 Usage Example
+```ts
+// Import and use the AuditLogger
+const { AuditLogger } = require('./audit-logger.ts');
+const instance = new AuditLogger();
+
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `ProdLogger` | `src/utils/prod-logger.ts` | ProdLogger class implementation |
+| `HttpUtil` | `src/utils/http-util.ts` | HttpUtil class implementation |
+| `DebugLogger` | `src/utils/debug-logger.ts` | DebugLogger class implementation |
+| `DataProcessor` | `src/utils/data-processor.ts` | DataProcessor class implementation |
+| `AuditLogger` | `src/utils/audit-logger.ts` | AuditLogger class implementation |
 
 ---
 
