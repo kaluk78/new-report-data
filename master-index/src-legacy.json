@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-11-10T04:23:36.033Z",
+  "generatedAt": "2025-12-11T12:49:51.191Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
@@ -26,7 +26,7 @@
         "lineCount": 43,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-processor.ts",
+            "filePath": "/workspace/src/legacy/old-processor.ts",
             "functionName": "processData",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -51,7 +51,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-processor.ts",
+            "filePath": "/workspace/src/legacy/old-processor.ts",
             "functionName": "transformData",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -78,7 +78,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-processor.ts",
+            "filePath": "/workspace/src/legacy/old-processor.ts",
             "functionName": "validateInput",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -135,7 +135,7 @@
         "lineCount": 98,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-http.ts",
+            "filePath": "/workspace/src/legacy/old-http.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -159,7 +159,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-http.ts",
+            "filePath": "/workspace/src/legacy/old-http.ts",
             "functionName": "get",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -184,7 +184,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-http.ts",
+            "filePath": "/workspace/src/legacy/old-http.ts",
             "functionName": "post",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -209,7 +209,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-http.ts",
+            "filePath": "/workspace/src/legacy/old-http.ts",
             "functionName": "syncGet",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -260,7 +260,7 @@
         "lineCount": 95,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-auth.ts",
+            "filePath": "/workspace/src/legacy/old-auth.ts",
             "functionName": "authenticateUser",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -285,7 +285,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-auth.ts",
+            "filePath": "/workspace/src/legacy/old-auth.ts",
             "functionName": "checkAuth",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -312,7 +312,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-auth.ts",
+            "filePath": "/workspace/src/legacy/old-auth.ts",
             "functionName": "getCurrentUser",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -341,7 +341,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-auth.ts",
+            "filePath": "/workspace/src/legacy/old-auth.ts",
             "functionName": "isUserLoggedIn",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -367,7 +367,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-auth.ts",
+            "filePath": "/workspace/src/legacy/old-auth.ts",
             "functionName": "login",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -392,7 +392,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-auth.ts",
+            "filePath": "/workspace/src/legacy/old-auth.ts",
             "functionName": "logout",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -419,7 +419,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/old-auth.ts",
+            "filePath": "/workspace/src/legacy/old-auth.ts",
             "functionName": "validateUser",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -499,7 +499,7 @@
         "lineCount": 296,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "applyPadding",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -523,7 +523,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "base64ToBytes",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -548,7 +548,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "bytesToBase64",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -573,7 +573,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -597,7 +597,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "decrypt",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -623,7 +623,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "emitDeprecationWarnings",
             "classification": "likely-placeholder",
             "confidence": 61,
@@ -649,7 +649,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "encrypt",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -675,7 +675,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "generateKey",
             "classification": "definite-legitimate",
             "confidence": 16,
@@ -701,7 +701,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "generateMigrationPlan",
             "classification": "definite-legitimate",
             "confidence": 4,
@@ -728,7 +728,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "removePadding",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -753,7 +753,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "simulateDESDecryption",
             "classification": "uncertain",
             "confidence": 40,
@@ -779,7 +779,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "simulateDESEncryption",
             "classification": "uncertain",
             "confidence": 52,
@@ -804,7 +804,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/legacy/des-encryption.ts",
+            "filePath": "/workspace/src/legacy/des-encryption.ts",
             "functionName": "validateSecurity",
             "classification": "definite-legitimate",
             "confidence": 0,

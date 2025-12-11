@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-11-10T04:23:36.104Z",
+  "generatedAt": "2025-12-11T12:49:51.519Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
@@ -26,7 +26,7 @@
         "lineCount": 88,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/modules/process-util.ts",
+            "filePath": "/workspace/src/modules/process-util.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -50,7 +50,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/modules/process-util.ts",
+            "filePath": "/workspace/src/modules/process-util.ts",
             "functionName": "getStats",
             "classification": "likely-legitimate",
             "confidence": 20,
@@ -78,7 +78,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/modules/process-util.ts",
+            "filePath": "/workspace/src/modules/process-util.ts",
             "functionName": "processArray",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -104,7 +104,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/modules/process-util.ts",
+            "filePath": "/workspace/src/modules/process-util.ts",
             "functionName": "processWithRetry",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -130,7 +130,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/modules/process-util.ts",
+            "filePath": "/workspace/src/modules/process-util.ts",
             "functionName": "processWithTimeout",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -189,7 +189,7 @@
         "lineCount": 109,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/modules/api-util.ts",
+            "filePath": "/workspace/src/modules/api-util.ts",
             "functionName": "buildQueryString",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -214,7 +214,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/modules/api-util.ts",
+            "filePath": "/workspace/src/modules/api-util.ts",
             "functionName": "createEndpoint",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -239,7 +239,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/modules/api-util.ts",
+            "filePath": "/workspace/src/modules/api-util.ts",
             "functionName": "handleResponse",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -265,7 +265,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/modules/api-util.ts",
+            "filePath": "/workspace/src/modules/api-util.ts",
             "functionName": "parseError",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -290,7 +290,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1762748612016-s2i6ps7hi/src/modules/api-util.ts",
+            "filePath": "/workspace/src/modules/api-util.ts",
             "functionName": "withRetry",
             "classification": "definite-legitimate",
             "confidence": 0,
