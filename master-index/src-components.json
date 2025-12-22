@@ -1,10 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-12-22T06:23:06.658Z",
+  "generatedAt": "2025-12-22T06:23:12.753Z",
   "configuration": {
-    "detectPlaceholders": true,
-    "placeholderConfidence": 45,
+    "detectPlaceholders": false,
+    "placeholderConfidence": 40,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
@@ -24,143 +24,6 @@
         "filePurpose": "TypeScript 5.4 implementation file",
         "languageDetail": "TypeScript 5.4",
         "lineCount": 84,
-        "placeholderDetection": [
-          {
-            "filePath": "/workspace/src/components/data-proc.ts",
-            "functionName": "addToQueue",
-            "classification": "definite-legitimate",
-            "confidence": 3,
-            "isPlaceholder": false,
-            "reasons": [
-              "Low cyclomatic complexity (1)",
-              "Very short function (3 lines)",
-              "Mutates state or has side effects",
-              "Safety cap applied: cheap heuristics only"
-            ],
-            "location": {
-              "startLine": 17,
-              "endLine": 19
-            },
-            "detectionMethods": {
-              "explicitMarkers": 0,
-              "namingPatterns": 0,
-              "astAnalysis": 18,
-              "commentAnalysis": 0,
-              "contextFilter": -15,
-              "unusedCodeAnalysis": 0,
-              "externalUnusedChecks": 0,
-              "enhancedContext": 0
-            }
-          },
-          {
-            "filePath": "/workspace/src/components/data-proc.ts",
-            "functionName": "clearQueue",
-            "classification": "definite-legitimate",
-            "confidence": 7,
-            "isPlaceholder": false,
-            "reasons": [
-              "Low cyclomatic complexity (1)",
-              "Very short function (3 lines)",
-              "Function takes no parameters",
-              "Mutates state or has side effects",
-              "Safety cap applied: cheap heuristics only"
-            ],
-            "location": {
-              "startLine": 71,
-              "endLine": 73
-            },
-            "detectionMethods": {
-              "explicitMarkers": 0,
-              "namingPatterns": 0,
-              "astAnalysis": 22,
-              "commentAnalysis": 0,
-              "contextFilter": -15,
-              "unusedCodeAnalysis": 0,
-              "externalUnusedChecks": 0,
-              "enhancedContext": 0
-            }
-          },
-          {
-            "filePath": "/workspace/src/components/data-proc.ts",
-            "functionName": "getStatus",
-            "classification": "definite-legitimate",
-            "confidence": 0,
-            "isPlaceholder": false,
-            "reasons": [
-              "Low cyclomatic complexity (1)",
-              "Function takes no parameters",
-              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
-              "Safety cap applied: cheap heuristics only"
-            ],
-            "location": {
-              "startLine": 78,
-              "endLine": 83
-            },
-            "detectionMethods": {
-              "explicitMarkers": 0,
-              "namingPatterns": 0,
-              "astAnalysis": 16,
-              "commentAnalysis": 0,
-              "contextFilter": -42,
-              "unusedCodeAnalysis": 0,
-              "externalUnusedChecks": 0,
-              "enhancedContext": 0
-            }
-          },
-          {
-            "filePath": "/workspace/src/components/data-proc.ts",
-            "functionName": "processItem",
-            "classification": "definite-legitimate",
-            "confidence": 0,
-            "isPlaceholder": false,
-            "reasons": [
-              "Returns computed value from external calls or processing",
-              "Safety cap applied: cheap heuristics only"
-            ],
-            "location": {
-              "startLine": 48,
-              "endLine": 66
-            },
-            "detectionMethods": {
-              "explicitMarkers": 0,
-              "namingPatterns": 0,
-              "astAnalysis": 0,
-              "commentAnalysis": 0,
-              "contextFilter": -12,
-              "unusedCodeAnalysis": 0,
-              "externalUnusedChecks": 0,
-              "enhancedContext": 0
-            }
-          },
-          {
-            "filePath": "/workspace/src/components/data-proc.ts",
-            "functionName": "processQueue",
-            "classification": "definite-legitimate",
-            "confidence": 3,
-            "isPlaceholder": false,
-            "reasons": [
-              "Returns simple/hardcoded value",
-              "Function takes no parameters",
-              "Contains throw statement",
-              "Mutates state or has side effects",
-              "Safety cap applied: cheap heuristics only"
-            ],
-            "location": {
-              "startLine": 24,
-              "endLine": 43
-            },
-            "detectionMethods": {
-              "explicitMarkers": 0,
-              "namingPatterns": 0,
-              "astAnalysis": 18,
-              "commentAnalysis": 0,
-              "contextFilter": -15,
-              "unusedCodeAnalysis": 0,
-              "externalUnusedChecks": 0,
-              "enhancedContext": 0
-            }
-          }
-        ],
         "importedModules": [],
         "exportedElements": [
           {
