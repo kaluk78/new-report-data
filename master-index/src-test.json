@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-12-25T07:11:09.502Z",
+  "generatedAt": "2025-12-25T07:32:28.859Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
@@ -26,7 +26,7 @@
         "lineCount": 170,
         "placeholderDetection": [
           {
-            "filePath": "/tmp/placeholder-detection-1766646664138-5b1mt071i/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1766647944745-y28olyj89/src/test/mock-http.ts",
             "functionName": "clearHistory",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -54,7 +54,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1766646664138-5b1mt071i/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1766647944745-y28olyj89/src/test/mock-http.ts",
             "functionName": "get",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -80,7 +80,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1766646664138-5b1mt071i/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1766647944745-y28olyj89/src/test/mock-http.ts",
             "functionName": "getLastRequest",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -108,7 +108,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1766646664138-5b1mt071i/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1766647944745-y28olyj89/src/test/mock-http.ts",
             "functionName": "getRequestHistory",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -136,7 +136,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1766646664138-5b1mt071i/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1766647944745-y28olyj89/src/test/mock-http.ts",
             "functionName": "post",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -162,7 +162,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1766646664138-5b1mt071i/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1766647944745-y28olyj89/src/test/mock-http.ts",
             "functionName": "reset",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -190,7 +190,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1766646664138-5b1mt071i/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1766647944745-y28olyj89/src/test/mock-http.ts",
             "functionName": "setMockResponse",
             "classification": "definite-legitimate",
             "confidence": 8,
@@ -217,7 +217,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1766646664138-5b1mt071i/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1766647944745-y28olyj89/src/test/mock-http.ts",
             "functionName": "simulateNetworkError",
             "classification": "likely-legitimate",
             "confidence": 32,
@@ -243,7 +243,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1766646664138-5b1mt071i/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1766647944745-y28olyj89/src/test/mock-http.ts",
             "functionName": "simulateTimeout",
             "classification": "likely-legitimate",
             "confidence": 32,
@@ -269,7 +269,7 @@
             }
           },
           {
-            "filePath": "/tmp/placeholder-detection-1766646664138-5b1mt071i/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1766647944745-y28olyj89/src/test/mock-http.ts",
             "functionName": "wasRequestMade",
             "classification": "definite-legitimate",
             "confidence": 0,
