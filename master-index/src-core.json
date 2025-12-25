@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-11-21T11:47:17.838Z",
+  "generatedAt": "2025-12-25T07:33:36.071Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
@@ -26,7 +26,7 @@
         "lineCount": 217,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "applyRequestInterceptors",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -51,7 +51,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "applyResponseInterceptors",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -76,7 +76,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "buildAuthHeader",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -101,7 +101,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "buildUrl",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -126,7 +126,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -150,7 +150,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "create",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -176,7 +176,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "createAuto",
             "classification": "likely-legitimate",
             "confidence": 28,
@@ -201,7 +201,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "delete",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -228,7 +228,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "get",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -255,7 +255,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "mergeHeaders",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -279,7 +279,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "patch",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -306,7 +306,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "post",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -333,7 +333,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/http-client.ts",
             "functionName": "put",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -462,7 +462,7 @@
         "lineCount": 478,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "addValidationRules",
             "classification": "definite-legitimate",
             "confidence": 18,
@@ -488,7 +488,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "checkMemoryUsage",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -514,7 +514,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -538,7 +538,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "createResult",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -564,7 +564,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "error",
             "classification": "likely-placeholder",
             "confidence": 63,
@@ -590,7 +590,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "getPerformanceMetrics",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -619,7 +619,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "info",
             "classification": "likely-placeholder",
             "confidence": 63,
@@ -645,7 +645,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "performMemoryCleanup",
             "classification": "definite-legitimate",
             "confidence": 4,
@@ -670,7 +670,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "process",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -696,7 +696,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "processBatchWithErrorHandling",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -721,7 +721,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "processItemWithRetry",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -746,7 +746,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "reset",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -773,7 +773,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "trackItemPerformance",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -797,7 +797,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "updatePerformanceMetrics",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -821,7 +821,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "validateData",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -846,7 +846,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "validateDataBatch",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -871,7 +871,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1766648013009-vv3bd1ob1/src/core/data-processor.ts",
             "functionName": "warn",
             "classification": "likely-placeholder",
             "confidence": 63,
