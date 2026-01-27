@@ -1,14 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:46.543Z",
+  "generatedAt": "2026-01-27T10:27:24.075Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2026-01-27T10:27:24.075Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
-    "maxFiles": 2000
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
   },
   "metadata": {
     "directory": {
@@ -26,7 +29,7 @@
         "lineCount": 84,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/components/data-proc.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/components/data-proc.ts",
             "functionName": "addToQueue",
             "classification": "definite-legitimate",
             "confidence": 3,
@@ -50,10 +53,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/components/data-proc.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/components/data-proc.ts",
             "functionName": "clearQueue",
             "classification": "definite-legitimate",
             "confidence": 7,
@@ -78,10 +87,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/components/data-proc.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/components/data-proc.ts",
             "functionName": "getStatus",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -105,10 +120,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/components/data-proc.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/components/data-proc.ts",
             "functionName": "processItem",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -130,13 +151,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/components/data-proc.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/components/data-proc.ts",
             "functionName": "processQueue",
-            "classification": "definite-legitimate",
-            "confidence": 3,
+            "classification": "likely-legitimate",
+            "confidence": 33,
             "isPlaceholder": false,
             "reasons": [
               "Returns simple/hardcoded value",
@@ -158,6 +185,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -179,6 +212,11 @@
         ]
       }
     ],
-    "subdirectories": []
-  }
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
 }

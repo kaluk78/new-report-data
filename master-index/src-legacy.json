@@ -1,14 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:47.736Z",
+  "generatedAt": "2026-01-27T10:27:25.007Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2026-01-27T10:27:25.007Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
-    "maxFiles": 2000
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
   },
   "metadata": {
     "directory": {
@@ -26,7 +29,7 @@
         "lineCount": 43,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/legacy/old-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-processor.ts",
             "functionName": "processData",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -48,19 +51,26 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-processor.ts",
             "functionName": "transformData",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 7,
             "isPlaceholder": false,
             "reasons": [
               "Low cyclomatic complexity (1)",
               "Very short function (4 lines)",
-              "Moderate context score; Returns computed value from external calls or processing",
-              "Safety cap applied: cheap heuristics only"
+              "[FALLBACK] 1 AI-suspicious unused parameters: options",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score; Returns computed value from external calls or processing"
             ],
             "location": {
               "startLine": 33,
@@ -72,13 +82,32 @@
               "astAnalysis": 18,
               "commentAnalysis": 0,
               "contextFilter": -27,
-              "unusedCodeAnalysis": 0,
+              "unusedCodeAnalysis": 8,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": [
+                {
+                  "name": "options",
+                  "parameterIndex": 1,
+                  "line": 33,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 5,
+                    "reason": "Important parameter - may indicate incomplete feature"
+                  }
+                }
+              ]
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-processor.ts",
             "functionName": "validateInput",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -102,6 +131,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -135,7 +170,7 @@
         "lineCount": 98,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/legacy/old-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-http.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -159,10 +194,10 @@
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-http.ts",
             "functionName": "get",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 12,
             "isPlaceholder": false,
             "reasons": [
               "Utility function with clear purpose",
@@ -181,13 +216,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-http.ts",
             "functionName": "post",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 12,
             "isPlaceholder": false,
             "reasons": [
               "Utility function with clear purpose",
@@ -206,13 +247,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-http.ts",
             "functionName": "syncGet",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 5,
             "isPlaceholder": false,
             "reasons": [
               "Contains throw statement",
@@ -232,6 +279,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -260,10 +313,10 @@
         "lineCount": 95,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/legacy/old-auth.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-auth.ts",
             "functionName": "authenticateUser",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 15,
             "isPlaceholder": false,
             "reasons": [
               "Returns hardcoded value: \"return null;\"",
@@ -282,10 +335,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-auth.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-auth.ts",
             "functionName": "checkAuth",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -309,10 +368,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-auth.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-auth.ts",
             "functionName": "getCurrentUser",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -338,10 +403,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-auth.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-auth.ts",
             "functionName": "isUserLoggedIn",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -364,13 +435,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-auth.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-auth.ts",
             "functionName": "login",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 12,
             "isPlaceholder": false,
             "reasons": [
               "Returns hardcoded value: \"return false;\"",
@@ -389,10 +466,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-auth.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-auth.ts",
             "functionName": "logout",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -416,10 +499,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/old-auth.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/old-auth.ts",
             "functionName": "validateUser",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -441,6 +530,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -499,10 +594,10 @@
         "lineCount": 296,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "applyPadding",
-            "classification": "definite-legitimate",
-            "confidence": 0,
+            "classification": "likely-legitimate",
+            "confidence": 30,
             "isPlaceholder": false,
             "reasons": [
               "Safety cap applied: cheap heuristics only"
@@ -520,13 +615,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "base64ToBytes",
-            "classification": "definite-legitimate",
-            "confidence": 12,
+            "classification": "uncertain",
+            "confidence": 42,
             "isPlaceholder": false,
             "reasons": [
               "Returns simple/hardcoded value",
@@ -545,13 +646,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "bytesToBase64",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 18,
             "isPlaceholder": false,
             "reasons": [
               "Returns computed value from external calls or processing",
@@ -570,10 +677,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -597,7 +710,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "decrypt",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -620,10 +733,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "emitDeprecationWarnings",
             "classification": "likely-placeholder",
             "confidence": 61,
@@ -646,13 +765,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "encrypt",
-            "classification": "definite-legitimate",
-            "confidence": 0,
+            "classification": "likely-legitimate",
+            "confidence": 20,
             "isPlaceholder": false,
             "reasons": [
               "Contains throw statement",
@@ -672,14 +797,20 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "generateKey",
-            "classification": "definite-legitimate",
-            "confidence": 16,
-            "isPlaceholder": false,
+            "classification": "uncertain",
+            "confidence": 46,
+            "isPlaceholder": true,
             "reasons": [
               "Returns simple/hardcoded value",
               "Function takes no parameters",
@@ -698,10 +829,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "generateMigrationPlan",
             "classification": "definite-legitimate",
             "confidence": 4,
@@ -725,10 +862,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "removePadding",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -750,10 +893,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "simulateDESDecryption",
             "classification": "uncertain",
             "confidence": 40,
@@ -776,13 +925,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "simulateDESEncryption",
-            "classification": "uncertain",
-            "confidence": 52,
+            "classification": "definite-placeholder",
+            "confidence": 82,
             "isPlaceholder": true,
             "reasons": [
               "Contains explicit placeholder marker: \"MOCK\"",
@@ -801,10 +956,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/legacy/des-encryption.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/legacy/des-encryption.ts",
             "functionName": "validateSecurity",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -828,6 +989,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -867,6 +1034,11 @@
         ]
       }
     ],
-    "subdirectories": []
-  }
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
 }

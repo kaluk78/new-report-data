@@ -1,14 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:45.839Z",
+  "generatedAt": "2026-01-27T10:27:23.297Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2026-01-27T10:27:23.297Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
-    "maxFiles": 2000
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
   },
   "metadata": {
     "directory": {
@@ -18,6 +21,11 @@
       "ownKeyElements": []
     },
     "files": [],
-    "subdirectories": []
-  }
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
 }

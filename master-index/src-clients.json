@@ -1,14 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:46.426Z",
+  "generatedAt": "2026-01-27T10:27:23.998Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2026-01-27T10:27:23.998Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
-    "maxFiles": 2000
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
   },
   "metadata": {
     "directory": {
@@ -26,7 +29,7 @@
         "lineCount": 278,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "addMock",
             "classification": "likely-placeholder",
             "confidence": 72,
@@ -50,10 +53,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "clearHistory",
             "classification": "definite-legitimate",
             "confidence": 7,
@@ -78,10 +140,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "clearMocks",
             "classification": "uncertain",
             "confidence": 47,
@@ -106,10 +227,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -133,7 +313,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "findMatchingRule",
             "classification": "uncertain",
             "confidence": 52,
@@ -155,10 +335,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "getLastRequest",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -183,10 +422,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "getRequestHistory",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -212,10 +510,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "getStatusText",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -238,13 +595,72 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "handleError",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 2,
             "isPlaceholder": false,
             "reasons": [
               "Contains explicit placeholder marker: \"Mock\"",
@@ -265,10 +681,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "removeMock",
             "classification": "likely-placeholder",
             "confidence": 72,
@@ -292,14 +767,73 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "request",
-            "classification": "definite-legitimate",
-            "confidence": 15,
-            "isPlaceholder": false,
+            "classification": "uncertain",
+            "confidence": 45,
+            "isPlaceholder": true,
             "reasons": [
               "Contains explicit placeholder marker: \"mock\"",
               "Contains throw statement",
@@ -318,10 +852,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "setupDefaultMocks",
             "classification": "likely-legitimate",
             "confidence": 26,
@@ -345,10 +938,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "simulateNetworkError",
             "classification": "uncertain",
             "confidence": 54,
@@ -371,10 +1023,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "simulateSlowResponse",
             "classification": "uncertain",
             "confidence": 52,
@@ -396,10 +1107,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "urlMatches",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -421,10 +1191,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/mock-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/mock-client.ts",
             "functionName": "wasRequestMade",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -447,6 +1276,65 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -497,7 +1385,7 @@
         "lineCount": 236,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/clients/fetch-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/fetch-client.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -521,10 +1409,10 @@
             }
           },
           {
-            "filePath": "/workspace/src/clients/fetch-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/fetch-client.ts",
             "functionName": "downloadFile",
-            "classification": "definite-legitimate",
-            "confidence": 12,
+            "classification": "uncertain",
+            "confidence": 42,
             "isPlaceholder": false,
             "reasons": [
               "Returns simple/hardcoded value",
@@ -543,10 +1431,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/fetch-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/fetch-client.ts",
             "functionName": "handleError",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -569,10 +1516,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/fetch-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/fetch-client.ts",
             "functionName": "isSupported",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -597,10 +1603,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/fetch-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/fetch-client.ts",
             "functionName": "parseHeaders",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -624,10 +1689,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/fetch-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/fetch-client.ts",
             "functionName": "parseResponse",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -649,10 +1773,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/fetch-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/fetch-client.ts",
             "functionName": "quickGet",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -676,10 +1859,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/fetch-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/fetch-client.ts",
             "functionName": "quickPost",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -703,10 +1945,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/fetch-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/fetch-client.ts",
             "functionName": "request",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -729,13 +2030,72 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/fetch-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/fetch-client.ts",
             "functionName": "uploadFile",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 15,
             "isPlaceholder": false,
             "reasons": [
               "Safety cap applied: cheap heuristics only"
@@ -753,6 +2113,65 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -798,15 +2217,16 @@
         "lineCount": 236,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/clients/axios-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/axios-client.ts",
             "functionName": "addRequestInterceptor",
             "classification": "definite-legitimate",
             "confidence": 0,
             "isPlaceholder": false,
             "reasons": [
               "Returns simple/hardcoded value",
-              "Properly uses assigned variables; Mutates state or has side effects",
-              "Safety cap applied: cheap heuristics only"
+              "[FALLBACK] 1 other unused parameters suggest unfinished functionality",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Properly uses assigned variables; Mutates state or has side effects"
             ],
             "location": {
               "startLine": 184,
@@ -818,21 +2238,94 @@
               "astAnalysis": 12,
               "commentAnalysis": 0,
               "contextFilter": -50,
-              "unusedCodeAnalysis": 0,
+              "unusedCodeAnalysis": 8,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": [
+                {
+                  "name": "onRejected",
+                  "parameterIndex": 1,
+                  "line": 186,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "General parameter - may be intentionally unused"
+                  }
+                }
+              ]
             }
           },
           {
-            "filePath": "/workspace/src/clients/axios-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/axios-client.ts",
             "functionName": "addResponseInterceptor",
             "classification": "definite-legitimate",
             "confidence": 0,
             "isPlaceholder": false,
             "reasons": [
               "Returns simple/hardcoded value",
-              "Properly uses assigned variables; Mutates state or has side effects",
-              "Safety cap applied: cheap heuristics only"
+              "[FALLBACK] 1 other unused parameters suggest unfinished functionality",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Properly uses assigned variables; Mutates state or has side effects"
             ],
             "location": {
               "startLine": 207,
@@ -844,13 +2337,85 @@
               "astAnalysis": 12,
               "commentAnalysis": 0,
               "contextFilter": -50,
-              "unusedCodeAnalysis": 0,
+              "unusedCodeAnalysis": 8,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": [
+                {
+                  "name": "onRejected",
+                  "parameterIndex": 1,
+                  "line": 209,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "General parameter - may be intentionally unused"
+                  }
+                }
+              ]
             }
           },
           {
-            "filePath": "/workspace/src/clients/axios-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/axios-client.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -874,10 +2439,10 @@
             }
           },
           {
-            "filePath": "/workspace/src/clients/axios-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/axios-client.ts",
             "functionName": "generateMockResponse",
-            "classification": "likely-legitimate",
-            "confidence": 28,
+            "classification": "uncertain",
+            "confidence": 43,
             "isPlaceholder": false,
             "reasons": [
               "Contains explicit placeholder marker: \"Mock\"",
@@ -896,10 +2461,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/axios-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/axios-client.ts",
             "functionName": "getConfig",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -924,10 +2548,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/axios-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/axios-client.ts",
             "functionName": "handleError",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -951,10 +2634,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/axios-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/axios-client.ts",
             "functionName": "initializeAxios",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -978,10 +2720,69 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/axios-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/axios-client.ts",
             "functionName": "request",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -1004,14 +2805,73 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/clients/axios-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/clients/axios-client.ts",
             "functionName": "simulateAxiosRequest",
-            "classification": "likely-legitimate",
-            "confidence": 30,
-            "isPlaceholder": false,
+            "classification": "uncertain",
+            "confidence": 45,
+            "isPlaceholder": true,
             "reasons": [
               "Contains explicit placeholder marker: \"Mock\"",
               "Contains throw statement",
@@ -1030,6 +2890,65 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "BaseHttpClient",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "HttpClientConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "CRITICAL",
+                    "score": 9,
+                    "reason": "Core service or API import - likely missing implementation"
+                  }
+                },
+                {
+                  "name": "RequestConfig",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "HttpResponse",
+                  "source": "../core/http-client",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -1063,6 +2982,11 @@
         ]
       }
     ],
-    "subdirectories": []
-  }
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
 }

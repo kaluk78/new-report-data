@@ -1,14 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:47.914Z",
+  "generatedAt": "2026-01-27T10:27:25.167Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2026-01-27T10:27:25.167Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
-    "maxFiles": 2000
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
   },
   "metadata": {
     "directory": {
@@ -26,7 +29,7 @@
         "lineCount": 88,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/modules/process-util.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/modules/process-util.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -50,7 +53,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/modules/process-util.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/modules/process-util.ts",
             "functionName": "getStats",
             "classification": "likely-legitimate",
             "confidence": 20,
@@ -75,13 +78,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/modules/process-util.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/modules/process-util.ts",
             "functionName": "processArray",
-            "classification": "definite-legitimate",
-            "confidence": 0,
+            "classification": "likely-legitimate",
+            "confidence": 27,
             "isPlaceholder": false,
             "reasons": [
               "Returns simple/hardcoded value",
@@ -101,13 +110,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/modules/process-util.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/modules/process-util.ts",
             "functionName": "processWithRetry",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 5,
             "isPlaceholder": false,
             "reasons": [
               "Contains throw statement",
@@ -127,13 +142,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/modules/process-util.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/modules/process-util.ts",
             "functionName": "processWithTimeout",
-            "classification": "definite-legitimate",
-            "confidence": 12,
+            "classification": "uncertain",
+            "confidence": 42,
             "isPlaceholder": false,
             "reasons": [
               "Low cyclomatic complexity (1)",
@@ -152,6 +173,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -189,7 +216,7 @@
         "lineCount": 109,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/modules/api-util.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/modules/api-util.ts",
             "functionName": "buildQueryString",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -211,13 +238,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/modules/api-util.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/modules/api-util.ts",
             "functionName": "createEndpoint",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 18,
             "isPlaceholder": false,
             "reasons": [
               "Returns computed value from external calls or processing",
@@ -236,10 +269,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/modules/api-util.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/modules/api-util.ts",
             "functionName": "handleResponse",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -262,10 +301,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/modules/api-util.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/modules/api-util.ts",
             "functionName": "parseError",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -287,13 +332,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/modules/api-util.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/modules/api-util.ts",
             "functionName": "withRetry",
-            "classification": "definite-legitimate",
-            "confidence": 0,
+            "classification": "likely-legitimate",
+            "confidence": 20,
             "isPlaceholder": false,
             "reasons": [
               "Contains throw statement",
@@ -313,6 +364,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -343,6 +400,11 @@
         ]
       }
     ],
-    "subdirectories": []
-  }
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
 }

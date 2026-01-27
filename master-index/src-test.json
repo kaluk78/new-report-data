@@ -1,14 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:48.998Z",
+  "generatedAt": "2026-01-27T10:27:26.096Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2026-01-27T10:27:26.096Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
-    "maxFiles": 2000
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
   },
   "metadata": {
     "directory": {
@@ -26,7 +29,7 @@
         "lineCount": 170,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/test/mock-http.ts",
             "functionName": "clearHistory",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -51,13 +54,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/test/mock-http.ts",
             "functionName": "get",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 19,
             "isPlaceholder": false,
             "reasons": [
               "Contains explicit placeholder marker: \"Mock\"",
@@ -77,10 +86,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/test/mock-http.ts",
             "functionName": "getLastRequest",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -105,16 +120,23 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/test/mock-http.ts",
             "functionName": "getRequestHistory",
-            "classification": "definite-legitimate",
-            "confidence": 12,
-            "isPlaceholder": false,
+            "classification": "likely-placeholder",
+            "confidence": 67,
+            "isPlaceholder": true,
             "reasons": [
               "Contains explicit placeholder marker: \"Mock\"",
+              "Function contains only a return statement",
               "Low cyclomatic complexity (1)",
               "Very short function (3 lines)",
               "Function takes no parameters",
@@ -125,7 +147,7 @@
               "endLine": 117
             },
             "detectionMethods": {
-              "explicitMarkers": 40,
+              "explicitMarkers": 60,
               "namingPatterns": 0,
               "astAnalysis": 22,
               "commentAnalysis": 0,
@@ -133,13 +155,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/test/mock-http.ts",
             "functionName": "post",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 19,
             "isPlaceholder": false,
             "reasons": [
               "Contains explicit placeholder marker: \"Mock\"",
@@ -159,10 +187,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/test/mock-http.ts",
             "functionName": "reset",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -187,13 +221,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/test/mock-http.ts",
             "functionName": "setMockResponse",
-            "classification": "definite-legitimate",
-            "confidence": 8,
+            "classification": "likely-legitimate",
+            "confidence": 23,
             "isPlaceholder": false,
             "reasons": [
               "Contains explicit placeholder marker: \"Mock\"",
@@ -214,10 +254,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/test/mock-http.ts",
             "functionName": "simulateNetworkError",
             "classification": "likely-legitimate",
             "confidence": 32,
@@ -240,17 +286,25 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/test/mock-http.ts",
             "functionName": "simulateTimeout",
-            "classification": "likely-legitimate",
-            "confidence": 32,
-            "isPlaceholder": false,
+            "classification": "uncertain",
+            "confidence": 49.8,
+            "isPlaceholder": true,
             "reasons": [
               "Contains explicit placeholder marker: \"Mock\"",
               "Low cyclomatic complexity (1)",
+              "[FALLBACK] 1 AI-suspicious unused variables: originalSetTimeout",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
               "Test file - simple test helpers expected"
             ],
             "location": {
@@ -263,13 +317,32 @@
               "astAnalysis": 12,
               "commentAnalysis": 0,
               "contextFilter": -20,
-              "unusedCodeAnalysis": 0,
+              "unusedCodeAnalysis": 4.800000000000001,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [
+                {
+                  "name": "originalSetTimeout",
+                  "line": 156,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/test/mock-http.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/test/mock-http.ts",
             "functionName": "wasRequestMade",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -292,6 +365,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -323,6 +402,11 @@
         ]
       }
     ],
-    "subdirectories": []
-  }
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
 }

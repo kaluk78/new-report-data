@@ -1,14 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:46.921Z",
+  "generatedAt": "2026-01-27T10:27:24.724Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2026-01-27T10:27:24.724Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
-    "maxFiles": 2000
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
   },
   "metadata": {
     "directory": {
@@ -26,10 +29,10 @@
         "lineCount": 217,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "applyRequestInterceptors",
-            "classification": "definite-legitimate",
-            "confidence": 12,
+            "classification": "likely-legitimate",
+            "confidence": 27,
             "isPlaceholder": false,
             "reasons": [
               "Returns simple/hardcoded value",
@@ -48,13 +51,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "applyResponseInterceptors",
-            "classification": "definite-legitimate",
-            "confidence": 12,
+            "classification": "likely-legitimate",
+            "confidence": 27,
             "isPlaceholder": false,
             "reasons": [
               "Returns simple/hardcoded value",
@@ -73,10 +82,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "buildAuthHeader",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -98,10 +113,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "buildUrl",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -123,10 +144,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -150,7 +177,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "create",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -173,10 +200,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "createAuto",
             "classification": "likely-legitimate",
             "confidence": 28,
@@ -198,10 +231,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "delete",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -225,10 +264,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "get",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -252,13 +297,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "mergeHeaders",
-            "classification": "definite-legitimate",
-            "confidence": 0,
+            "classification": "likely-legitimate",
+            "confidence": 30,
             "isPlaceholder": false,
             "reasons": [
               "Safety cap applied: cheap heuristics only"
@@ -276,10 +327,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "patch",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -303,10 +360,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "post",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -330,10 +393,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/http-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/http-client.ts",
             "functionName": "put",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -357,6 +426,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -462,7 +537,7 @@
         "lineCount": 478,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "addValidationRules",
             "classification": "definite-legitimate",
             "confidence": 18,
@@ -485,10 +560,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "checkMemoryUsage",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -511,10 +592,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -538,7 +625,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "createResult",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -561,36 +648,49 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "error",
-            "classification": "likely-placeholder",
-            "confidence": 63,
-            "isPlaceholder": true,
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
             "reasons": [
-              "Function contains only logging statements",
               "Low cyclomatic complexity (1)",
-              "Very short function (3 lines)"
+              "Very short function (3 lines)",
+              "Moderate context score; Utility function with clear purpose; Properly uses assigned variables; Mutates state or has side effects; Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
             ],
             "location": {
               "startLine": 475,
               "endLine": 477
             },
             "detectionMethods": {
-              "explicitMarkers": 45,
+              "explicitMarkers": 0,
               "namingPatterns": 0,
               "astAnalysis": 18,
               "commentAnalysis": 0,
-              "contextFilter": 0,
+              "contextFilter": -80,
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "getPerformanceMetrics",
             "classification": "definite-legitimate",
             "confidence": 12,
@@ -616,36 +716,49 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "info",
-            "classification": "likely-placeholder",
-            "confidence": 63,
-            "isPlaceholder": true,
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
             "reasons": [
-              "Function contains only logging statements",
               "Low cyclomatic complexity (1)",
-              "Very short function (3 lines)"
+              "Very short function (3 lines)",
+              "Moderate context score; Utility function with clear purpose; Properly uses assigned variables; Mutates state or has side effects; Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
             ],
             "location": {
               "startLine": 467,
               "endLine": 469
             },
             "detectionMethods": {
-              "explicitMarkers": 45,
+              "explicitMarkers": 0,
               "namingPatterns": 0,
               "astAnalysis": 18,
               "commentAnalysis": 0,
-              "contextFilter": 0,
+              "contextFilter": -80,
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "performMemoryCleanup",
             "classification": "definite-legitimate",
             "confidence": 4,
@@ -667,10 +780,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "process",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -693,13 +812,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "processBatchWithErrorHandling",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 15,
             "isPlaceholder": false,
             "reasons": [
               "Mutates state or has side effects",
@@ -718,13 +843,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "processItemWithRetry",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 3,
             "isPlaceholder": false,
             "reasons": [
               "Mutates state or has side effects; Returns computed value from external calls or processing",
@@ -743,10 +874,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "reset",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -770,10 +907,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "trackItemPerformance",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -794,10 +937,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "updatePerformanceMetrics",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -818,10 +967,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "validateData",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -843,10 +998,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "validateDataBatch",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -868,32 +1029,45 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/core/data-processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/core/data-processor.ts",
             "functionName": "warn",
-            "classification": "likely-placeholder",
-            "confidence": 63,
-            "isPlaceholder": true,
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
             "reasons": [
-              "Function contains only logging statements",
               "Low cyclomatic complexity (1)",
-              "Very short function (3 lines)"
+              "Very short function (3 lines)",
+              "Moderate context score; Utility function with clear purpose; Properly uses assigned variables; Mutates state or has side effects; Returns computed value from external calls or processing; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
             ],
             "location": {
               "startLine": 471,
               "endLine": 473
             },
             "detectionMethods": {
-              "explicitMarkers": 45,
+              "explicitMarkers": 0,
               "namingPatterns": 0,
               "astAnalysis": 18,
               "commentAnalysis": 0,
-              "contextFilter": 0,
+              "contextFilter": -80,
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -960,6 +1134,11 @@
         ]
       }
     ],
-    "subdirectories": []
-  }
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
 }

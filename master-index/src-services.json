@@ -1,14 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:48.815Z",
+  "generatedAt": "2026-01-27T10:27:25.982Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2026-01-27T10:27:25.982Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
-    "maxFiles": 2000
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
   },
   "metadata": {
     "directory": {
@@ -26,7 +29,7 @@
         "lineCount": 245,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/services/processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/processor.ts",
             "functionName": "addValidationRules",
             "classification": "definite-legitimate",
             "confidence": 18,
@@ -49,10 +52,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/processor.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -76,36 +85,43 @@
             }
           },
           {
-            "filePath": "/workspace/src/services/processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/processor.ts",
             "functionName": "error",
-            "classification": "likely-placeholder",
-            "confidence": 63,
-            "isPlaceholder": true,
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
             "reasons": [
-              "Function contains only logging statements",
               "Low cyclomatic complexity (1)",
-              "Very short function (3 lines)"
+              "Very short function (3 lines)",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
             ],
             "location": {
               "startLine": 242,
               "endLine": 244
             },
             "detectionMethods": {
-              "explicitMarkers": 45,
+              "explicitMarkers": 0,
               "namingPatterns": 0,
               "astAnalysis": 18,
               "commentAnalysis": 0,
-              "contextFilter": 0,
+              "contextFilter": -18,
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/processor.ts",
             "functionName": "executeWithRetry",
-            "classification": "definite-legitimate",
-            "confidence": 0,
+            "classification": "likely-legitimate",
+            "confidence": 20,
             "isPlaceholder": false,
             "reasons": [
               "Contains throw statement",
@@ -125,10 +141,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/processor.ts",
             "functionName": "getValidationRules",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -153,39 +175,52 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/processor.ts",
             "functionName": "info",
-            "classification": "likely-placeholder",
-            "confidence": 63,
-            "isPlaceholder": true,
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
             "reasons": [
-              "Function contains only logging statements",
               "Low cyclomatic complexity (1)",
-              "Very short function (3 lines)"
+              "Very short function (3 lines)",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
             ],
             "location": {
               "startLine": 234,
               "endLine": 236
             },
             "detectionMethods": {
-              "explicitMarkers": 45,
+              "explicitMarkers": 0,
               "namingPatterns": 0,
               "astAnalysis": 18,
               "commentAnalysis": 0,
-              "contextFilter": 0,
+              "contextFilter": -18,
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/processor.ts",
             "functionName": "processWithErrorHandling",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 3,
             "isPlaceholder": false,
             "reasons": [
               "Mutates state or has side effects; Returns computed value from external calls or processing",
@@ -204,10 +239,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/processor.ts",
             "functionName": "validateData",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -229,32 +270,45 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/processor.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/processor.ts",
             "functionName": "warn",
-            "classification": "likely-placeholder",
-            "confidence": 63,
-            "isPlaceholder": true,
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
             "reasons": [
-              "Function contains only logging statements",
               "Low cyclomatic complexity (1)",
-              "Very short function (3 lines)"
+              "Very short function (3 lines)",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
             ],
             "location": {
               "startLine": 238,
               "endLine": 240
             },
             "detectionMethods": {
-              "explicitMarkers": 45,
+              "explicitMarkers": 0,
               "namingPatterns": 0,
               "astAnalysis": 18,
               "commentAnalysis": 0,
-              "contextFilter": 0,
+              "contextFilter": -18,
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -329,7 +383,7 @@
         "lineCount": 98,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/services/auth-service.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/auth-service.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -353,7 +407,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/services/auth-service.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/auth-service.ts",
             "functionName": "isAuthenticated",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -376,17 +430,25 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/auth-service.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/auth-service.ts",
             "functionName": "login",
-            "classification": "likely-legitimate",
-            "confidence": 37,
-            "isPlaceholder": false,
+            "classification": "uncertain",
+            "confidence": 52.8,
+            "isPlaceholder": true,
             "reasons": [
               "Contains explicit placeholder marker: \"mock\"",
               "Returns hardcoded value: \"return null;\"",
+              "[FALLBACK] 1 AI-suspicious unused variables: isValid",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
               "Utility function with clear purpose"
             ],
             "location": {
@@ -399,13 +461,32 @@
               "astAnalysis": 0,
               "commentAnalysis": 0,
               "contextFilter": -18,
-              "unusedCodeAnalysis": 0,
+              "unusedCodeAnalysis": 4.800000000000001,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [
+                {
+                  "name": "isValid",
+                  "line": 52,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/auth-service.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/auth-service.ts",
             "functionName": "logout",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -428,10 +509,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/auth-service.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/auth-service.ts",
             "functionName": "validateUser",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -453,6 +540,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -481,7 +574,7 @@
         "lineCount": 156,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/services/api-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/api-client.ts",
             "functionName": "addRequestInterceptor",
             "classification": "definite-legitimate",
             "confidence": 3,
@@ -505,10 +598,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/api-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/api-client.ts",
             "functionName": "addResponseInterceptor",
             "classification": "definite-legitimate",
             "confidence": 3,
@@ -532,10 +631,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/api-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/api-client.ts",
             "functionName": "buildUrl",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -557,10 +662,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/api-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/api-client.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -584,7 +695,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/services/api-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/api-client.ts",
             "functionName": "get",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -608,10 +719,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/api-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/api-client.ts",
             "functionName": "post",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -635,13 +752,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/api-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/api-client.ts",
             "functionName": "request",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 12,
             "isPlaceholder": false,
             "reasons": [
               "Contains throw statement",
@@ -661,10 +784,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/services/api-client.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/services/api-client.ts",
             "functionName": "setupDefaultInterceptors",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -688,6 +817,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -718,6 +853,11 @@
         ]
       }
     ],
-    "subdirectories": []
-  }
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
 }

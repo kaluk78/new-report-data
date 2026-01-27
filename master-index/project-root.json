@@ -1,20 +1,28 @@
 {
-  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
-  "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:49.844Z",
-  "configuration": {
-    "detectPlaceholders": true,
-    "placeholderConfidence": 45,
-    "placeholderAnalysisLevel": "enhanced",
-    "detailLevel": "standard",
-    "includeComplexity": false,
-    "maxFiles": 2000
+  "$metadata": {
+    "generator": {
+      "name": "LLM README Generator",
+      "version": "0.7.6",
+      "description": "Revolutionary hybrid analysis tool delivering intelligent codebase documentation through enhanced AST parsing, complexity metrics, and executive business insights"
+    },
+    "branding": {
+      "creator": "Keith Costello",
+      "company": "Deduplicode Services, Inc.",
+      "website": "https://deduplicode.ai"
+    },
+    "generatedAt": "2026-01-27T10:27:26.988Z",
+    "support": {
+      "email": "support@deduplicode.ai",
+      "contact": "Contact: keith@deduplicode.ai | Support: support@deduplicode.ai"
+    }
   },
+  "analysisType": "llm-targeted",
+  "version": "2.1.0",
   "metadata": {
     "directory": {
-      "name": "workspace",
+      "name": "placeholder-detection-1769509641032-8wvmfluh4",
       "path": ".",
-      "purpose": "Enhanced directory analysis of workspace",
+      "purpose": "Enhanced directory analysis of placeholder-detection-1769509641032-8wvmfluh4",
       "ownKeyElements": []
     },
     "files": [],
@@ -31,6 +39,22 @@
         "sourcedPurposeFromChild": "Enhanced directory analysis of src",
         "keyElementsFromChild": []
       }
-    ]
-  }
+    ],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 45,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "structuredElements": [],
+  "relationships": [],
+  "patterns": []
 }

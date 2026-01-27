@@ -1,14 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:47.139Z",
+  "generatedAt": "2026-01-27T10:27:24.798Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2026-01-27T10:27:24.798Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
-    "maxFiles": 2000
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
   },
   "metadata": {
     "directory": {
@@ -26,7 +29,7 @@
         "lineCount": 80,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/helpers/request-helper.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/request-helper.ts",
             "functionName": "buildUrl",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -48,10 +51,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/helpers/request-helper.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/request-helper.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -75,7 +84,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/helpers/request-helper.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/request-helper.ts",
             "functionName": "get",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -99,10 +108,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/helpers/request-helper.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/request-helper.ts",
             "functionName": "makeRequest",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -125,10 +140,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/helpers/request-helper.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/request-helper.ts",
             "functionName": "post",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -152,10 +173,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/helpers/request-helper.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/request-helper.ts",
             "functionName": "setAuthToken",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -179,6 +206,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -216,7 +249,7 @@
         "lineCount": 73,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/helpers/data-handler.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/data-handler.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -240,7 +273,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/helpers/data-handler.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/data-handler.ts",
             "functionName": "handleData",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -263,13 +296,19 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/helpers/data-handler.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/data-handler.ts",
             "functionName": "processItem",
             "classification": "definite-legitimate",
-            "confidence": 0,
+            "confidence": 3,
             "isPlaceholder": false,
             "reasons": [
               "Returns computed value from external calls or processing",
@@ -288,10 +327,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/helpers/data-handler.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/data-handler.ts",
             "functionName": "transformFormat",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -313,10 +358,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/helpers/data-handler.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/helpers/data-handler.ts",
             "functionName": "validateStructure",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -340,6 +391,12 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -361,6 +418,11 @@
         ]
       }
     ],
-    "subdirectories": []
-  }
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
 }

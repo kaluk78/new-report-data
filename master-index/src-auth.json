@@ -1,14 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2026-01-12T09:15:46.063Z",
+  "generatedAt": "2026-01-27T10:27:23.542Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2026-01-27T10:27:23.542Z",
   "configuration": {
     "detectPlaceholders": true,
     "placeholderConfidence": 45,
     "placeholderAnalysisLevel": "enhanced",
     "detailLevel": "standard",
     "includeComplexity": false,
-    "maxFiles": 2000
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
   },
   "metadata": {
     "directory": {
@@ -26,15 +29,16 @@
         "lineCount": 143,
         "placeholderDetection": [
           {
-            "filePath": "/workspace/src/auth/core-validator.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/auth/core-validator.ts",
             "functionName": "checkEmailVerification",
             "classification": "definite-legitimate",
             "confidence": 0,
             "isPlaceholder": false,
             "reasons": [
               "Low cyclomatic complexity (1)",
-              "Legitimate simple function pattern (getter/setter/utility)",
-              "Safety cap applied: cheap heuristics only"
+              "[FALLBACK] 1 other unused parameters suggest unfinished functionality",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Legitimate simple function pattern (getter/setter/utility)"
             ],
             "location": {
               "startLine": 109,
@@ -46,13 +50,32 @@
               "astAnalysis": 12,
               "commentAnalysis": 0,
               "contextFilter": -30,
-              "unusedCodeAnalysis": 0,
+              "unusedCodeAnalysis": 8,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": [
+                {
+                  "name": "email",
+                  "parameterIndex": 0,
+                  "line": 109,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "General parameter - may be intentionally unused"
+                  }
+                }
+              ]
             }
           },
           {
-            "filePath": "/workspace/src/auth/core-validator.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/auth/core-validator.ts",
             "functionName": "constructor",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -76,7 +99,7 @@
             }
           },
           {
-            "filePath": "/workspace/src/auth/core-validator.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/auth/core-validator.ts",
             "functionName": "getUserId",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -99,10 +122,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/auth/core-validator.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/auth/core-validator.ts",
             "functionName": "isValidEmail",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -126,10 +155,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/auth/core-validator.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/auth/core-validator.ts",
             "functionName": "isValidPassword",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -137,7 +172,7 @@
             "reasons": [
               "Low cyclomatic complexity (1)",
               "Very short function (3 lines)",
-              "Legitimate simple function pattern (getter/setter/utility)",
+              "Legitimate simple function pattern (getter/setter/utility); Mutates state or has side effects",
               "Safety cap applied: cheap heuristics only"
             ],
             "location": {
@@ -149,14 +184,20 @@
               "namingPatterns": 0,
               "astAnalysis": 18,
               "commentAnalysis": 0,
-              "contextFilter": -30,
+              "contextFilter": -45,
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/auth/core-validator.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/auth/core-validator.ts",
             "functionName": "isWeakPassword",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -179,10 +220,16 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/auth/core-validator.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/auth/core-validator.ts",
             "functionName": "updateConfig",
             "classification": "definite-legitimate",
             "confidence": 3,
@@ -206,18 +253,25 @@
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/auth/core-validator.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/auth/core-validator.ts",
             "functionName": "validateTwoFactor",
             "classification": "definite-legitimate",
             "confidence": 0,
             "isPlaceholder": false,
             "reasons": [
               "Low cyclomatic complexity (1)",
-              "Legitimate simple function pattern (getter/setter/utility); Test file - simple test helpers expected",
-              "Safety cap applied: cheap heuristics only"
+              "[FALLBACK] 1 other unused parameters suggest unfinished functionality",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Legitimate simple function pattern (getter/setter/utility); Test file - simple test helpers expected"
             ],
             "location": {
               "startLine": 116,
@@ -229,20 +283,40 @@
               "astAnalysis": 12,
               "commentAnalysis": 0,
               "contextFilter": -50,
-              "unusedCodeAnalysis": 0,
+              "unusedCodeAnalysis": 8,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": [
+                {
+                  "name": "email",
+                  "parameterIndex": 0,
+                  "line": 116,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "General parameter - may be intentionally unused"
+                  }
+                }
+              ]
             }
           },
           {
-            "filePath": "/workspace/src/auth/core-validator.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/auth/core-validator.ts",
             "functionName": "validateUser",
             "classification": "definite-legitimate",
             "confidence": 0,
             "isPlaceholder": false,
             "reasons": [
-              "Legitimate simple function pattern (getter/setter/utility); Mutates state or has side effects",
-              "Safety cap applied: cheap heuristics only"
+              "[FALLBACK] 2 AI-suspicious unused variables: isVerified, isTwoFactorValid",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Legitimate simple function pattern (getter/setter/utility); Mutates state or has side effects"
             ],
             "location": {
               "startLine": 38,
@@ -254,13 +328,44 @@
               "astAnalysis": 0,
               "commentAnalysis": 0,
               "contextFilter": -45,
-              "unusedCodeAnalysis": 0,
+              "unusedCodeAnalysis": 9.600000000000001,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [
+                {
+                  "name": "isVerified",
+                  "line": 58,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "Debug or temporary variable - low implementation priority"
+                  }
+                },
+                {
+                  "name": "isTwoFactorValid",
+                  "line": 66,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           },
           {
-            "filePath": "/workspace/src/auth/core-validator.ts",
+            "filePath": "/tmp/placeholder-detection-1769509641032-8wvmfluh4/src/auth/core-validator.ts",
             "functionName": "validateUsers",
             "classification": "definite-legitimate",
             "confidence": 0,
@@ -268,7 +373,7 @@
             "reasons": [
               "Low cyclomatic complexity (1)",
               "Very short function (3 lines)",
-              "Legitimate simple function pattern (getter/setter/utility); Returns computed value from external calls or processing",
+              "Legitimate simple function pattern (getter/setter/utility)",
               "Safety cap applied: cheap heuristics only"
             ],
             "location": {
@@ -280,10 +385,16 @@
               "namingPatterns": 0,
               "astAnalysis": 18,
               "commentAnalysis": 0,
-              "contextFilter": -42,
+              "contextFilter": -30,
               "unusedCodeAnalysis": 0,
               "externalUnusedChecks": 0,
               "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
             }
           }
         ],
@@ -323,6 +434,11 @@
         ]
       }
     ],
-    "subdirectories": []
-  }
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
 }
